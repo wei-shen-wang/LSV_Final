@@ -35,6 +35,7 @@ public:
         type_ = type;
         inserted_ = false;
         camouflaged_ = false;
+        topoSorted_ = false;
 
     }
     inline ~Gate(){
@@ -43,7 +44,9 @@ public:
     inline std::string getTypeString(){
         return type2String[type_];
     }
+    bool topoSorted_;
     int index_;
+    int level_;
     std::string name_;
     Type type_;
     std::vector<Wire*> inWirePtrs_;
@@ -60,10 +63,12 @@ public:
     inline Wire(const std::string &name){
         name_ = name;
         level_ = -1;
+        topoSorted_ = false;
     }
     inline ~Wire(){
 
     }
+    bool topoSorted_;
     int index_;
     int level_;
     std::string name_;

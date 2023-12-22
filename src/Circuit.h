@@ -1,5 +1,9 @@
 #include <unordered_map>
 #include <unordered_set>
+#include <cassert>
+#include <iostream>
+#include <vector>
+#include <queue>
 #include "Gate.h"
 class Circuit{
 public:
@@ -14,6 +18,7 @@ public:
             delete wirePtrs_[i];
         }
     }
+    void topologicalSort();
     std::vector<Gate*> gatePtrs_;
     std::vector<Wire*> wirePtrs_;
     std::unordered_map<std::string, Gate*> name2GatePtr_;
