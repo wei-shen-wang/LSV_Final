@@ -1,4 +1,5 @@
 #include <unordered_map>
+#include <unordered_set>
 #include "Gate.h"
 class Circuit{
 public:
@@ -18,4 +19,6 @@ public:
     std::unordered_map<std::string, Gate*> name2GatePtr_;
     std::unordered_map<std::string, Wire*> name2WirePtr_;
     std::unordered_map<Wire*, Wire*> wirePtr2wirePtr;
+    std::unordered_set<std::string> inputNames_;
+    std::unordered_set<std::string> outputNames_;
 };

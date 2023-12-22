@@ -1,6 +1,7 @@
 #ifndef GATE_H
 #define GATE_H
 #include <string>
+#include <unordered_map>
 class Wire;
 class Gate;
 class Gate{
@@ -17,11 +18,30 @@ public:
         XOR,
         XNOR
     };
-    inline Gate(){
+    std::unordered_map<Type, std::string> type2String = {
+        {PI, "PI"},
+        {PO, "PO"},
+        {NOT, "NOT"},
+        {BUF, "BUF"},
+        {NAND, "NAND"},
+        {AND, "AND"},
+        {NOR, "NOR"},
+        {OR, "OR"},
+        {XOR, "XOR"},
+        {XNOR, "XNOR"}
+    };
+    inline Gate(const std::string &name, Type type){
+        name_ = name;
+        type_ = type;
+        inserted_ = false;
+        camouflaged_ = false;
 
     }
     inline ~Gate(){
 
+    }
+    inline std::string getTypeString(){
+        return type2String[type_];
     }
     int index_;
     std::string name_;
@@ -37,8 +57,9 @@ public:
 class Wire
 {
 public:
-    inline Wire(/* args */){
-
+    inline Wire(const std::string &name){
+        name_ = name;
+        level_ = -1;
     }
     inline ~Wire(){
 
