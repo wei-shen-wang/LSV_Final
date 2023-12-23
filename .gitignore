@@ -1,4 +1,2 @@
 bin/obfuscate*
 .vscode*
-wang_runall.sh
-*.log

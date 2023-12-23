@@ -24,8 +24,8 @@ void Circuit::topologicalSort(){
             }
             for (int j = 0; j < pWire->outGatePtrs_.size(); ++j){
                 Gate* pOutGate = pWire->outGatePtrs_[j];
-                tempGatePtrs.push(pOutGate);
                 if(!pOutGate->topoSorted_){
+                    tempGatePtrs.push(pOutGate);
                     topoOrderGatePtrs.push_back(pOutGate);
                     pOutGate->topoSorted_ = true;
                 }
