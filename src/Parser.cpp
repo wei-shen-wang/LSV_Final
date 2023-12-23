@@ -31,7 +31,9 @@ int Parser::parseFile(){
             word.erase(word.find(';'),1);
             verilogEndline = true;
         }
-        this->tokens_.push_back(word);
+        if(word != ""){
+            this->tokens_.push_back(word);
+        }
         if(verilogEndline){
             // for(int i = 0;i<this->tokens_.size();++i){
             //     std::cerr << this->tokens_[i] << " ";
@@ -137,10 +139,6 @@ int Parser::parseFile(){
                     pGate->inWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[i]]);
                     this->pCircuit_->name2WirePtr_[this->tokens_[i]]->outGatePtrs_.push_back(pGate);
                 }
-                // pGate->inWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[3]]);
-                // pGate->inWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[4]]);
-                // this->pCircuit_->name2WirePtr_[this->tokens_[3]]->outGatePtrs_.push_back(pGate);
-                // this->pCircuit_->name2WirePtr_[this->tokens_[4]]->outGatePtrs_.push_back(pGate);
                 pGate->outWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[2]]);
                 this->pCircuit_->name2WirePtr_[this->tokens_[2]]->inGatePtrs_.push_back(pGate);
                 this->pCircuit_->gatePtrs_.push_back(pGate);

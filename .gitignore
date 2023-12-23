@@ -1,2 +1,3 @@
 bin/obfuscate*
 .vscode*
+output.txt

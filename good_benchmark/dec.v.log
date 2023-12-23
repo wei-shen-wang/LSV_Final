@@ -1,0 +1,2696 @@
+Hi mama
+gate count: 576
+topoOrderGatePtrs.size: 576
+wire count: 320
+topoOrderWirePtrs.size: 320
+
+Gate info:
+Gate \count[0] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[0] 
+Gate \count[1] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[1] 
+Gate \count[2] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[2] 
+Gate \count[3] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[3] 
+Gate \count[4] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[4] 
+Gate \count[5] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[5] 
+Gate \count[6] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[6] 
+Gate \count[7] type: PI
+	inWirePtrs_: 
+	outWirePtrs_: \count[7] 
+Gate g7 type: NOT
+	inWirePtrs_: \count[0] 
+	outWirePtrs_: n_10 
+Gate g15 type: AND
+	inWirePtrs_: \count[0] n_11 
+	outWirePtrs_: n272 
+Gate g26 type: AND
+	inWirePtrs_: \count[0] \count[2] 
+	outWirePtrs_: n283 
+Gate g10 type: NOT
+	inWirePtrs_: \count[1] 
+	outWirePtrs_: n_14 
+Gate g18 type: AND
+	inWirePtrs_: \count[1] n_15 
+	outWirePtrs_: n275 
+Gate g38 type: AND
+	inWirePtrs_: \count[1] \count[3] 
+	outWirePtrs_: n295 
+Gate g8 type: NOT
+	inWirePtrs_: \count[2] 
+	outWirePtrs_: n_11 
+Gate g23 type: AND
+	inWirePtrs_: n_10 \count[2] 
+	outWirePtrs_: n280 
+Gate g11 type: NOT
+	inWirePtrs_: \count[3] 
+	outWirePtrs_: n_15 
+Gate g33 type: AND
+	inWirePtrs_: n_14 \count[3] 
+	outWirePtrs_: n290 
+Gate g1 type: NOT
+	inWirePtrs_: \count[4] 
+	outWirePtrs_: n_3 
+Gate g51 type: AND
+	inWirePtrs_: \count[4] n_4 
+	outWirePtrs_: n308 
+Gate g87 type: AND
+	inWirePtrs_: \count[4] \count[5] 
+	outWirePtrs_: n344 
+Gate g2 type: NOT
+	inWirePtrs_: \count[5] 
+	outWirePtrs_: n_4 
+Gate g69 type: AND
+	inWirePtrs_: n_3 \count[5] 
+	outWirePtrs_: n326 
+Gate g4 type: NOT
+	inWirePtrs_: \count[6] 
+	outWirePtrs_: n_6 
+Gate g105 type: AND
+	inWirePtrs_: \count[6] \count[7] 
+	outWirePtrs_: n362 
+Gate g244 type: AND
+	inWirePtrs_: \count[6] n_16 
+	outWirePtrs_: n500 
+Gate g5 type: AND
+	inWirePtrs_: n_6 \count[7] 
+	outWirePtrs_: n266 
+Gate g174 type: NOT
+	inWirePtrs_: \count[7] 
+	outWirePtrs_: n_16 
+Gate g9 type: AND
+	inWirePtrs_: n_10 n_11 
+	outWirePtrs_: n268 
+Gate g16 type: AND
+	inWirePtrs_: n269 n272 
+	outWirePtrs_: n273 
+Gate g21 type: AND
+	inWirePtrs_: n272 n275 
+	outWirePtrs_: n278 
+Gate g36 type: AND
+	inWirePtrs_: n272 n290 
+	outWirePtrs_: n293 
+Gate g41 type: AND
+	inWirePtrs_: n272 n295 
+	outWirePtrs_: n298 
+Gate g27 type: AND
+	inWirePtrs_: n269 n283 
+	outWirePtrs_: n284 
+Gate g31 type: AND
+	inWirePtrs_: n275 n283 
+	outWirePtrs_: n288 
+Gate g45 type: AND
+	inWirePtrs_: n283 n290 
+	outWirePtrs_: n302 
+Gate g49 type: AND
+	inWirePtrs_: n283 n295 
+	outWirePtrs_: n306 
+Gate g12 type: AND
+	inWirePtrs_: n_14 n_15 
+	outWirePtrs_: n269 
+Gate g19 type: AND
+	inWirePtrs_: n268 n275 
+	outWirePtrs_: n276 
+Gate g29 type: AND
+	inWirePtrs_: n275 n280 
+	outWirePtrs_: n286 
+Gate g39 type: AND
+	inWirePtrs_: n268 n295 
+	outWirePtrs_: n296 
+Gate g47 type: AND
+	inWirePtrs_: n280 n295 
+	outWirePtrs_: n304 
+Gate g24 type: AND
+	inWirePtrs_: n269 n280 
+	outWirePtrs_: n281 
+Gate g43 type: AND
+	inWirePtrs_: n280 n290 
+	outWirePtrs_: n300 
+Gate g34 type: AND
+	inWirePtrs_: n268 n290 
+	outWirePtrs_: n291 
+Gate g3 type: AND
+	inWirePtrs_: n_3 n_4 
+	outWirePtrs_: n265 
+Gate g52 type: AND
+	inWirePtrs_: n266 n308 
+	outWirePtrs_: n309 
+Gate g123 type: AND
+	inWirePtrs_: n308 n362 
+	outWirePtrs_: n380 
+Gate g193 type: AND
+	inWirePtrs_: n308 n431 
+	outWirePtrs_: n449 
+Gate g262 type: AND
+	inWirePtrs_: n308 n500 
+	outWirePtrs_: n518 
+Gate g88 type: AND
+	inWirePtrs_: n266 n344 
+	outWirePtrs_: n345 
+Gate g157 type: AND
+	inWirePtrs_: n344 n362 
+	outWirePtrs_: n414 
+Gate g227 type: AND
+	inWirePtrs_: n344 n431 
+	outWirePtrs_: n483 
+Gate g296 type: AND
+	inWirePtrs_: n344 n500 
+	outWirePtrs_: n552 
+Gate g70 type: AND
+	inWirePtrs_: n266 n326 
+	outWirePtrs_: n327 
+Gate g140 type: AND
+	inWirePtrs_: n326 n362 
+	outWirePtrs_: n397 
+Gate g210 type: AND
+	inWirePtrs_: n326 n431 
+	outWirePtrs_: n466 
+Gate g279 type: AND
+	inWirePtrs_: n326 n500 
+	outWirePtrs_: n535 
+Gate g175 type: AND
+	inWirePtrs_: n_6 n_16 
+	outWirePtrs_: n431 
+Gate g106 type: AND
+	inWirePtrs_: n265 n362 
+	outWirePtrs_: n363 
+Gate g245 type: AND
+	inWirePtrs_: n265 n500 
+	outWirePtrs_: n501 
+Gate g6 type: AND
+	inWirePtrs_: n265 n266 
+	outWirePtrs_: n267 
+Gate g13 type: AND
+	inWirePtrs_: n268 n269 
+	outWirePtrs_: n270 
+Gate g17 type: AND
+	inWirePtrs_: n267 n273 
+	outWirePtrs_: \selectp1[1] 
+Gate g54 type: AND
+	inWirePtrs_: n273 n309 
+	outWirePtrs_: \selectp1[17] 
+Gate g72 type: AND
+	inWirePtrs_: n273 n327 
+	outWirePtrs_: \selectp1[33] 
+Gate g90 type: AND
+	inWirePtrs_: n273 n345 
+	outWirePtrs_: \selectp1[49] 
+Gate g108 type: AND
+	inWirePtrs_: n273 n363 
+	outWirePtrs_: \selectp1[65] 
+Gate g125 type: AND
+	inWirePtrs_: n273 n380 
+	outWirePtrs_: \selectp1[81] 
+Gate g142 type: AND
+	inWirePtrs_: n273 n397 
+	outWirePtrs_: \selectp1[97] 
+Gate g159 type: AND
+	inWirePtrs_: n273 n414 
+	outWirePtrs_: \selectp1[113] 
+Gate g178 type: AND
+	inWirePtrs_: n273 n432 
+	outWirePtrs_: \selectp2[1] 
+Gate g195 type: AND
+	inWirePtrs_: n273 n449 
+	outWirePtrs_: \selectp2[17] 
+Gate g212 type: AND
+	inWirePtrs_: n273 n466 
+	outWirePtrs_: \selectp2[33] 
+Gate g229 type: AND
+	inWirePtrs_: n273 n483 
+	outWirePtrs_: \selectp2[49] 
+Gate g247 type: AND
+	inWirePtrs_: n273 n501 
+	outWirePtrs_: \selectp2[65] 
+Gate g264 type: AND
+	inWirePtrs_: n273 n518 
+	outWirePtrs_: \selectp2[81] 
+Gate g281 type: AND
+	inWirePtrs_: n273 n535 
+	outWirePtrs_: \selectp2[97] 
+Gate g298 type: AND
+	inWirePtrs_: n273 n552 
+	outWirePtrs_: \selectp2[113] 
+Gate g22 type: AND
+	inWirePtrs_: n267 n278 
+	outWirePtrs_: \selectp1[3] 
+Gate g56 type: AND
+	inWirePtrs_: n278 n309 
+	outWirePtrs_: \selectp1[19] 
+Gate g74 type: AND
+	inWirePtrs_: n278 n327 
+	outWirePtrs_: \selectp1[35] 
+Gate g92 type: AND
+	inWirePtrs_: n278 n345 
+	outWirePtrs_: \selectp1[51] 
+Gate g110 type: AND
+	inWirePtrs_: n278 n363 
+	outWirePtrs_: \selectp1[67] 
+Gate g127 type: AND
+	inWirePtrs_: n278 n380 
+	outWirePtrs_: \selectp1[83] 
+Gate g144 type: AND
+	inWirePtrs_: n278 n397 
+	outWirePtrs_: \selectp1[99] 
+Gate g161 type: AND
+	inWirePtrs_: n278 n414 
+	outWirePtrs_: \selectp1[115] 
+Gate g180 type: AND
+	inWirePtrs_: n278 n432 
+	outWirePtrs_: \selectp2[3] 
+Gate g197 type: AND
+	inWirePtrs_: n278 n449 
+	outWirePtrs_: \selectp2[19] 
+Gate g214 type: AND
+	inWirePtrs_: n278 n466 
+	outWirePtrs_: \selectp2[35] 
+Gate g231 type: AND
+	inWirePtrs_: n278 n483 
+	outWirePtrs_: \selectp2[51] 
+Gate g249 type: AND
+	inWirePtrs_: n278 n501 
+	outWirePtrs_: \selectp2[67] 
+Gate g266 type: AND
+	inWirePtrs_: n278 n518 
+	outWirePtrs_: \selectp2[83] 
+Gate g283 type: AND
+	inWirePtrs_: n278 n535 
+	outWirePtrs_: \selectp2[99] 
+Gate g300 type: AND
+	inWirePtrs_: n278 n552 
+	outWirePtrs_: \selectp2[115] 
+Gate g37 type: AND
+	inWirePtrs_: n267 n293 
+	outWirePtrs_: \selectp1[9] 
+Gate g62 type: AND
+	inWirePtrs_: n293 n309 
+	outWirePtrs_: \selectp1[25] 
+Gate g80 type: AND
+	inWirePtrs_: n293 n327 
+	outWirePtrs_: \selectp1[41] 
+Gate g98 type: AND
+	inWirePtrs_: n293 n345 
+	outWirePtrs_: \selectp1[57] 
+Gate g116 type: AND
+	inWirePtrs_: n293 n363 
+	outWirePtrs_: \selectp1[73] 
+Gate g133 type: AND
+	inWirePtrs_: n293 n380 
+	outWirePtrs_: \selectp1[89] 
+Gate g150 type: AND
+	inWirePtrs_: n293 n397 
+	outWirePtrs_: \selectp1[105] 
+Gate g167 type: AND
+	inWirePtrs_: n293 n414 
+	outWirePtrs_: \selectp1[121] 
+Gate g186 type: AND
+	inWirePtrs_: n293 n432 
+	outWirePtrs_: \selectp2[9] 
+Gate g203 type: AND
+	inWirePtrs_: n293 n449 
+	outWirePtrs_: \selectp2[25] 
+Gate g220 type: AND
+	inWirePtrs_: n293 n466 
+	outWirePtrs_: \selectp2[41] 
+Gate g237 type: AND
+	inWirePtrs_: n293 n483 
+	outWirePtrs_: \selectp2[57] 
+Gate g255 type: AND
+	inWirePtrs_: n293 n501 
+	outWirePtrs_: \selectp2[73] 
+Gate g272 type: AND
+	inWirePtrs_: n293 n518 
+	outWirePtrs_: \selectp2[89] 
+Gate g289 type: AND
+	inWirePtrs_: n293 n535 
+	outWirePtrs_: \selectp2[105] 
+Gate g306 type: AND
+	inWirePtrs_: n293 n552 
+	outWirePtrs_: \selectp2[121] 
+Gate g42 type: AND
+	inWirePtrs_: n267 n298 
+	outWirePtrs_: \selectp1[11] 
+Gate g64 type: AND
+	inWirePtrs_: n298 n309 
+	outWirePtrs_: \selectp1[27] 
+Gate g82 type: AND
+	inWirePtrs_: n298 n327 
+	outWirePtrs_: \selectp1[43] 
+Gate g100 type: AND
+	inWirePtrs_: n298 n345 
+	outWirePtrs_: \selectp1[59] 
+Gate g118 type: AND
+	inWirePtrs_: n298 n363 
+	outWirePtrs_: \selectp1[75] 
+Gate g135 type: AND
+	inWirePtrs_: n298 n380 
+	outWirePtrs_: \selectp1[91] 
+Gate g152 type: AND
+	inWirePtrs_: n298 n397 
+	outWirePtrs_: \selectp1[107] 
+Gate g169 type: AND
+	inWirePtrs_: n298 n414 
+	outWirePtrs_: \selectp1[123] 
+Gate g188 type: AND
+	inWirePtrs_: n298 n432 
+	outWirePtrs_: \selectp2[11] 
+Gate g205 type: AND
+	inWirePtrs_: n298 n449 
+	outWirePtrs_: \selectp2[27] 
+Gate g222 type: AND
+	inWirePtrs_: n298 n466 
+	outWirePtrs_: \selectp2[43] 
+Gate g239 type: AND
+	inWirePtrs_: n298 n483 
+	outWirePtrs_: \selectp2[59] 
+Gate g257 type: AND
+	inWirePtrs_: n298 n501 
+	outWirePtrs_: \selectp2[75] 
+Gate g274 type: AND
+	inWirePtrs_: n298 n518 
+	outWirePtrs_: \selectp2[91] 
+Gate g291 type: AND
+	inWirePtrs_: n298 n535 
+	outWirePtrs_: \selectp2[107] 
+Gate g308 type: AND
+	inWirePtrs_: n298 n552 
+	outWirePtrs_: \selectp2[123] 
+Gate g28 type: AND
+	inWirePtrs_: n267 n284 
+	outWirePtrs_: \selectp1[5] 
+Gate g58 type: AND
+	inWirePtrs_: n284 n309 
+	outWirePtrs_: \selectp1[21] 
+Gate g76 type: AND
+	inWirePtrs_: n284 n327 
+	outWirePtrs_: \selectp1[37] 
+Gate g94 type: AND
+	inWirePtrs_: n284 n345 
+	outWirePtrs_: \selectp1[53] 
+Gate g112 type: AND
+	inWirePtrs_: n284 n363 
+	outWirePtrs_: \selectp1[69] 
+Gate g129 type: AND
+	inWirePtrs_: n284 n380 
+	outWirePtrs_: \selectp1[85] 
+Gate g146 type: AND
+	inWirePtrs_: n284 n397 
+	outWirePtrs_: \selectp1[101] 
+Gate g163 type: AND
+	inWirePtrs_: n284 n414 
+	outWirePtrs_: \selectp1[117] 
+Gate g182 type: AND
+	inWirePtrs_: n284 n432 
+	outWirePtrs_: \selectp2[5] 
+Gate g199 type: AND
+	inWirePtrs_: n284 n449 
+	outWirePtrs_: \selectp2[21] 
+Gate g216 type: AND
+	inWirePtrs_: n284 n466 
+	outWirePtrs_: \selectp2[37] 
+Gate g233 type: AND
+	inWirePtrs_: n284 n483 
+	outWirePtrs_: \selectp2[53] 
+Gate g251 type: AND
+	inWirePtrs_: n284 n501 
+	outWirePtrs_: \selectp2[69] 
+Gate g268 type: AND
+	inWirePtrs_: n284 n518 
+	outWirePtrs_: \selectp2[85] 
+Gate g285 type: AND
+	inWirePtrs_: n284 n535 
+	outWirePtrs_: \selectp2[101] 
+Gate g302 type: AND
+	inWirePtrs_: n284 n552 
+	outWirePtrs_: \selectp2[117] 
+Gate g32 type: AND
+	inWirePtrs_: n267 n288 
+	outWirePtrs_: \selectp1[7] 
+Gate g60 type: AND
+	inWirePtrs_: n288 n309 
+	outWirePtrs_: \selectp1[23] 
+Gate g78 type: AND
+	inWirePtrs_: n288 n327 
+	outWirePtrs_: \selectp1[39] 
+Gate g96 type: AND
+	inWirePtrs_: n288 n345 
+	outWirePtrs_: \selectp1[55] 
+Gate g114 type: AND
+	inWirePtrs_: n288 n363 
+	outWirePtrs_: \selectp1[71] 
+Gate g131 type: AND
+	inWirePtrs_: n288 n380 
+	outWirePtrs_: \selectp1[87] 
+Gate g148 type: AND
+	inWirePtrs_: n288 n397 
+	outWirePtrs_: \selectp1[103] 
+Gate g165 type: AND
+	inWirePtrs_: n288 n414 
+	outWirePtrs_: \selectp1[119] 
+Gate g184 type: AND
+	inWirePtrs_: n288 n432 
+	outWirePtrs_: \selectp2[7] 
+Gate g201 type: AND
+	inWirePtrs_: n288 n449 
+	outWirePtrs_: \selectp2[23] 
+Gate g218 type: AND
+	inWirePtrs_: n288 n466 
+	outWirePtrs_: \selectp2[39] 
+Gate g235 type: AND
+	inWirePtrs_: n288 n483 
+	outWirePtrs_: \selectp2[55] 
+Gate g253 type: AND
+	inWirePtrs_: n288 n501 
+	outWirePtrs_: \selectp2[71] 
+Gate g270 type: AND
+	inWirePtrs_: n288 n518 
+	outWirePtrs_: \selectp2[87] 
+Gate g287 type: AND
+	inWirePtrs_: n288 n535 
+	outWirePtrs_: \selectp2[103] 
+Gate g304 type: AND
+	inWirePtrs_: n288 n552 
+	outWirePtrs_: \selectp2[119] 
+Gate g46 type: AND
+	inWirePtrs_: n267 n302 
+	outWirePtrs_: \selectp1[13] 
+Gate g66 type: AND
+	inWirePtrs_: n302 n309 
+	outWirePtrs_: \selectp1[29] 
+Gate g84 type: AND
+	inWirePtrs_: n302 n327 
+	outWirePtrs_: \selectp1[45] 
+Gate g102 type: AND
+	inWirePtrs_: n302 n345 
+	outWirePtrs_: \selectp1[61] 
+Gate g120 type: AND
+	inWirePtrs_: n302 n363 
+	outWirePtrs_: \selectp1[77] 
+Gate g137 type: AND
+	inWirePtrs_: n302 n380 
+	outWirePtrs_: \selectp1[93] 
+Gate g154 type: AND
+	inWirePtrs_: n302 n397 
+	outWirePtrs_: \selectp1[109] 
+Gate g171 type: AND
+	inWirePtrs_: n302 n414 
+	outWirePtrs_: \selectp1[125] 
+Gate g190 type: AND
+	inWirePtrs_: n302 n432 
+	outWirePtrs_: \selectp2[13] 
+Gate g207 type: AND
+	inWirePtrs_: n302 n449 
+	outWirePtrs_: \selectp2[29] 
+Gate g224 type: AND
+	inWirePtrs_: n302 n466 
+	outWirePtrs_: \selectp2[45] 
+Gate g241 type: AND
+	inWirePtrs_: n302 n483 
+	outWirePtrs_: \selectp2[61] 
+Gate g259 type: AND
+	inWirePtrs_: n302 n501 
+	outWirePtrs_: \selectp2[77] 
+Gate g276 type: AND
+	inWirePtrs_: n302 n518 
+	outWirePtrs_: \selectp2[93] 
+Gate g293 type: AND
+	inWirePtrs_: n302 n535 
+	outWirePtrs_: \selectp2[109] 
+Gate g310 type: AND
+	inWirePtrs_: n302 n552 
+	outWirePtrs_: \selectp2[125] 
+Gate g50 type: AND
+	inWirePtrs_: n267 n306 
+	outWirePtrs_: \selectp1[15] 
+Gate g68 type: AND
+	inWirePtrs_: n306 n309 
+	outWirePtrs_: \selectp1[31] 
+Gate g86 type: AND
+	inWirePtrs_: n306 n327 
+	outWirePtrs_: \selectp1[47] 
+Gate g104 type: AND
+	inWirePtrs_: n306 n345 
+	outWirePtrs_: \selectp1[63] 
+Gate g122 type: AND
+	inWirePtrs_: n306 n363 
+	outWirePtrs_: \selectp1[79] 
+Gate g139 type: AND
+	inWirePtrs_: n306 n380 
+	outWirePtrs_: \selectp1[95] 
+Gate g156 type: AND
+	inWirePtrs_: n306 n397 
+	outWirePtrs_: \selectp1[111] 
+Gate g173 type: AND
+	inWirePtrs_: n306 n414 
+	outWirePtrs_: \selectp1[127] 
+Gate g192 type: AND
+	inWirePtrs_: n306 n432 
+	outWirePtrs_: \selectp2[15] 
+Gate g209 type: AND
+	inWirePtrs_: n306 n449 
+	outWirePtrs_: \selectp2[31] 
+Gate g226 type: AND
+	inWirePtrs_: n306 n466 
+	outWirePtrs_: \selectp2[47] 
+Gate g243 type: AND
+	inWirePtrs_: n306 n483 
+	outWirePtrs_: \selectp2[63] 
+Gate g261 type: AND
+	inWirePtrs_: n306 n501 
+	outWirePtrs_: \selectp2[79] 
+Gate g278 type: AND
+	inWirePtrs_: n306 n518 
+	outWirePtrs_: \selectp2[95] 
+Gate g295 type: AND
+	inWirePtrs_: n306 n535 
+	outWirePtrs_: \selectp2[111] 
+Gate g312 type: AND
+	inWirePtrs_: n306 n552 
+	outWirePtrs_: \selectp2[127] 
+Gate g20 type: AND
+	inWirePtrs_: n267 n276 
+	outWirePtrs_: \selectp1[2] 
+Gate g55 type: AND
+	inWirePtrs_: n276 n309 
+	outWirePtrs_: \selectp1[18] 
+Gate g73 type: AND
+	inWirePtrs_: n276 n327 
+	outWirePtrs_: \selectp1[34] 
+Gate g91 type: AND
+	inWirePtrs_: n276 n345 
+	outWirePtrs_: \selectp1[50] 
+Gate g109 type: AND
+	inWirePtrs_: n276 n363 
+	outWirePtrs_: \selectp1[66] 
+Gate g126 type: AND
+	inWirePtrs_: n276 n380 
+	outWirePtrs_: \selectp1[82] 
+Gate g143 type: AND
+	inWirePtrs_: n276 n397 
+	outWirePtrs_: \selectp1[98] 
+Gate g160 type: AND
+	inWirePtrs_: n276 n414 
+	outWirePtrs_: \selectp1[114] 
+Gate g179 type: AND
+	inWirePtrs_: n276 n432 
+	outWirePtrs_: \selectp2[2] 
+Gate g196 type: AND
+	inWirePtrs_: n276 n449 
+	outWirePtrs_: \selectp2[18] 
+Gate g213 type: AND
+	inWirePtrs_: n276 n466 
+	outWirePtrs_: \selectp2[34] 
+Gate g230 type: AND
+	inWirePtrs_: n276 n483 
+	outWirePtrs_: \selectp2[50] 
+Gate g248 type: AND
+	inWirePtrs_: n276 n501 
+	outWirePtrs_: \selectp2[66] 
+Gate g265 type: AND
+	inWirePtrs_: n276 n518 
+	outWirePtrs_: \selectp2[82] 
+Gate g282 type: AND
+	inWirePtrs_: n276 n535 
+	outWirePtrs_: \selectp2[98] 
+Gate g299 type: AND
+	inWirePtrs_: n276 n552 
+	outWirePtrs_: \selectp2[114] 
+Gate g30 type: AND
+	inWirePtrs_: n267 n286 
+	outWirePtrs_: \selectp1[6] 
+Gate g59 type: AND
+	inWirePtrs_: n286 n309 
+	outWirePtrs_: \selectp1[22] 
+Gate g77 type: AND
+	inWirePtrs_: n286 n327 
+	outWirePtrs_: \selectp1[38] 
+Gate g95 type: AND
+	inWirePtrs_: n286 n345 
+	outWirePtrs_: \selectp1[54] 
+Gate g113 type: AND
+	inWirePtrs_: n286 n363 
+	outWirePtrs_: \selectp1[70] 
+Gate g130 type: AND
+	inWirePtrs_: n286 n380 
+	outWirePtrs_: \selectp1[86] 
+Gate g147 type: AND
+	inWirePtrs_: n286 n397 
+	outWirePtrs_: \selectp1[102] 
+Gate g164 type: AND
+	inWirePtrs_: n286 n414 
+	outWirePtrs_: \selectp1[118] 
+Gate g183 type: AND
+	inWirePtrs_: n286 n432 
+	outWirePtrs_: \selectp2[6] 
+Gate g200 type: AND
+	inWirePtrs_: n286 n449 
+	outWirePtrs_: \selectp2[22] 
+Gate g217 type: AND
+	inWirePtrs_: n286 n466 
+	outWirePtrs_: \selectp2[38] 
+Gate g234 type: AND
+	inWirePtrs_: n286 n483 
+	outWirePtrs_: \selectp2[54] 
+Gate g252 type: AND
+	inWirePtrs_: n286 n501 
+	outWirePtrs_: \selectp2[70] 
+Gate g269 type: AND
+	inWirePtrs_: n286 n518 
+	outWirePtrs_: \selectp2[86] 
+Gate g286 type: AND
+	inWirePtrs_: n286 n535 
+	outWirePtrs_: \selectp2[102] 
+Gate g303 type: AND
+	inWirePtrs_: n286 n552 
+	outWirePtrs_: \selectp2[118] 
+Gate g40 type: AND
+	inWirePtrs_: n267 n296 
+	outWirePtrs_: \selectp1[10] 
+Gate g63 type: AND
+	inWirePtrs_: n296 n309 
+	outWirePtrs_: \selectp1[26] 
+Gate g81 type: AND
+	inWirePtrs_: n296 n327 
+	outWirePtrs_: \selectp1[42] 
+Gate g99 type: AND
+	inWirePtrs_: n296 n345 
+	outWirePtrs_: \selectp1[58] 
+Gate g117 type: AND
+	inWirePtrs_: n296 n363 
+	outWirePtrs_: \selectp1[74] 
+Gate g134 type: AND
+	inWirePtrs_: n296 n380 
+	outWirePtrs_: \selectp1[90] 
+Gate g151 type: AND
+	inWirePtrs_: n296 n397 
+	outWirePtrs_: \selectp1[106] 
+Gate g168 type: AND
+	inWirePtrs_: n296 n414 
+	outWirePtrs_: \selectp1[122] 
+Gate g187 type: AND
+	inWirePtrs_: n296 n432 
+	outWirePtrs_: \selectp2[10] 
+Gate g204 type: AND
+	inWirePtrs_: n296 n449 
+	outWirePtrs_: \selectp2[26] 
+Gate g221 type: AND
+	inWirePtrs_: n296 n466 
+	outWirePtrs_: \selectp2[42] 
+Gate g238 type: AND
+	inWirePtrs_: n296 n483 
+	outWirePtrs_: \selectp2[58] 
+Gate g256 type: AND
+	inWirePtrs_: n296 n501 
+	outWirePtrs_: \selectp2[74] 
+Gate g273 type: AND
+	inWirePtrs_: n296 n518 
+	outWirePtrs_: \selectp2[90] 
+Gate g290 type: AND
+	inWirePtrs_: n296 n535 
+	outWirePtrs_: \selectp2[106] 
+Gate g307 type: AND
+	inWirePtrs_: n296 n552 
+	outWirePtrs_: \selectp2[122] 
+Gate g48 type: AND
+	inWirePtrs_: n267 n304 
+	outWirePtrs_: \selectp1[14] 
+Gate g67 type: AND
+	inWirePtrs_: n304 n309 
+	outWirePtrs_: \selectp1[30] 
+Gate g85 type: AND
+	inWirePtrs_: n304 n327 
+	outWirePtrs_: \selectp1[46] 
+Gate g103 type: AND
+	inWirePtrs_: n304 n345 
+	outWirePtrs_: \selectp1[62] 
+Gate g121 type: AND
+	inWirePtrs_: n304 n363 
+	outWirePtrs_: \selectp1[78] 
+Gate g138 type: AND
+	inWirePtrs_: n304 n380 
+	outWirePtrs_: \selectp1[94] 
+Gate g155 type: AND
+	inWirePtrs_: n304 n397 
+	outWirePtrs_: \selectp1[110] 
+Gate g172 type: AND
+	inWirePtrs_: n304 n414 
+	outWirePtrs_: \selectp1[126] 
+Gate g191 type: AND
+	inWirePtrs_: n304 n432 
+	outWirePtrs_: \selectp2[14] 
+Gate g208 type: AND
+	inWirePtrs_: n304 n449 
+	outWirePtrs_: \selectp2[30] 
+Gate g225 type: AND
+	inWirePtrs_: n304 n466 
+	outWirePtrs_: \selectp2[46] 
+Gate g242 type: AND
+	inWirePtrs_: n304 n483 
+	outWirePtrs_: \selectp2[62] 
+Gate g260 type: AND
+	inWirePtrs_: n304 n501 
+	outWirePtrs_: \selectp2[78] 
+Gate g277 type: AND
+	inWirePtrs_: n304 n518 
+	outWirePtrs_: \selectp2[94] 
+Gate g294 type: AND
+	inWirePtrs_: n304 n535 
+	outWirePtrs_: \selectp2[110] 
+Gate g311 type: AND
+	inWirePtrs_: n304 n552 
+	outWirePtrs_: \selectp2[126] 
+Gate g25 type: AND
+	inWirePtrs_: n267 n281 
+	outWirePtrs_: \selectp1[4] 
+Gate g57 type: AND
+	inWirePtrs_: n281 n309 
+	outWirePtrs_: \selectp1[20] 
+Gate g75 type: AND
+	inWirePtrs_: n281 n327 
+	outWirePtrs_: \selectp1[36] 
+Gate g93 type: AND
+	inWirePtrs_: n281 n345 
+	outWirePtrs_: \selectp1[52] 
+Gate g111 type: AND
+	inWirePtrs_: n281 n363 
+	outWirePtrs_: \selectp1[68] 
+Gate g128 type: AND
+	inWirePtrs_: n281 n380 
+	outWirePtrs_: \selectp1[84] 
+Gate g145 type: AND
+	inWirePtrs_: n281 n397 
+	outWirePtrs_: \selectp1[100] 
+Gate g162 type: AND
+	inWirePtrs_: n281 n414 
+	outWirePtrs_: \selectp1[116] 
+Gate g181 type: AND
+	inWirePtrs_: n281 n432 
+	outWirePtrs_: \selectp2[4] 
+Gate g198 type: AND
+	inWirePtrs_: n281 n449 
+	outWirePtrs_: \selectp2[20] 
+Gate g215 type: AND
+	inWirePtrs_: n281 n466 
+	outWirePtrs_: \selectp2[36] 
+Gate g232 type: AND
+	inWirePtrs_: n281 n483 
+	outWirePtrs_: \selectp2[52] 
+Gate g250 type: AND
+	inWirePtrs_: n281 n501 
+	outWirePtrs_: \selectp2[68] 
+Gate g267 type: AND
+	inWirePtrs_: n281 n518 
+	outWirePtrs_: \selectp2[84] 
+Gate g284 type: AND
+	inWirePtrs_: n281 n535 
+	outWirePtrs_: \selectp2[100] 
+Gate g301 type: AND
+	inWirePtrs_: n281 n552 
+	outWirePtrs_: \selectp2[116] 
+Gate g44 type: AND
+	inWirePtrs_: n267 n300 
+	outWirePtrs_: \selectp1[12] 
+Gate g65 type: AND
+	inWirePtrs_: n300 n309 
+	outWirePtrs_: \selectp1[28] 
+Gate g83 type: AND
+	inWirePtrs_: n300 n327 
+	outWirePtrs_: \selectp1[44] 
+Gate g101 type: AND
+	inWirePtrs_: n300 n345 
+	outWirePtrs_: \selectp1[60] 
+Gate g119 type: AND
+	inWirePtrs_: n300 n363 
+	outWirePtrs_: \selectp1[76] 
+Gate g136 type: AND
+	inWirePtrs_: n300 n380 
+	outWirePtrs_: \selectp1[92] 
+Gate g153 type: AND
+	inWirePtrs_: n300 n397 
+	outWirePtrs_: \selectp1[108] 
+Gate g170 type: AND
+	inWirePtrs_: n300 n414 
+	outWirePtrs_: \selectp1[124] 
+Gate g189 type: AND
+	inWirePtrs_: n300 n432 
+	outWirePtrs_: \selectp2[12] 
+Gate g206 type: AND
+	inWirePtrs_: n300 n449 
+	outWirePtrs_: \selectp2[28] 
+Gate g223 type: AND
+	inWirePtrs_: n300 n466 
+	outWirePtrs_: \selectp2[44] 
+Gate g240 type: AND
+	inWirePtrs_: n300 n483 
+	outWirePtrs_: \selectp2[60] 
+Gate g258 type: AND
+	inWirePtrs_: n300 n501 
+	outWirePtrs_: \selectp2[76] 
+Gate g275 type: AND
+	inWirePtrs_: n300 n518 
+	outWirePtrs_: \selectp2[92] 
+Gate g292 type: AND
+	inWirePtrs_: n300 n535 
+	outWirePtrs_: \selectp2[108] 
+Gate g309 type: AND
+	inWirePtrs_: n300 n552 
+	outWirePtrs_: \selectp2[124] 
+Gate g35 type: AND
+	inWirePtrs_: n267 n291 
+	outWirePtrs_: \selectp1[8] 
+Gate g61 type: AND
+	inWirePtrs_: n291 n309 
+	outWirePtrs_: \selectp1[24] 
+Gate g79 type: AND
+	inWirePtrs_: n291 n327 
+	outWirePtrs_: \selectp1[40] 
+Gate g97 type: AND
+	inWirePtrs_: n291 n345 
+	outWirePtrs_: \selectp1[56] 
+Gate g115 type: AND
+	inWirePtrs_: n291 n363 
+	outWirePtrs_: \selectp1[72] 
+Gate g132 type: AND
+	inWirePtrs_: n291 n380 
+	outWirePtrs_: \selectp1[88] 
+Gate g149 type: AND
+	inWirePtrs_: n291 n397 
+	outWirePtrs_: \selectp1[104] 
+Gate g166 type: AND
+	inWirePtrs_: n291 n414 
+	outWirePtrs_: \selectp1[120] 
+Gate g185 type: AND
+	inWirePtrs_: n291 n432 
+	outWirePtrs_: \selectp2[8] 
+Gate g202 type: AND
+	inWirePtrs_: n291 n449 
+	outWirePtrs_: \selectp2[24] 
+Gate g219 type: AND
+	inWirePtrs_: n291 n466 
+	outWirePtrs_: \selectp2[40] 
+Gate g236 type: AND
+	inWirePtrs_: n291 n483 
+	outWirePtrs_: \selectp2[56] 
+Gate g254 type: AND
+	inWirePtrs_: n291 n501 
+	outWirePtrs_: \selectp2[72] 
+Gate g271 type: AND
+	inWirePtrs_: n291 n518 
+	outWirePtrs_: \selectp2[88] 
+Gate g288 type: AND
+	inWirePtrs_: n291 n535 
+	outWirePtrs_: \selectp2[104] 
+Gate g305 type: AND
+	inWirePtrs_: n291 n552 
+	outWirePtrs_: \selectp2[120] 
+Gate g176 type: AND
+	inWirePtrs_: n265 n431 
+	outWirePtrs_: n432 
+Gate g53 type: AND
+	inWirePtrs_: n270 n309 
+	outWirePtrs_: \selectp1[16] 
+Gate g124 type: AND
+	inWirePtrs_: n270 n380 
+	outWirePtrs_: \selectp1[80] 
+Gate g194 type: AND
+	inWirePtrs_: n270 n449 
+	outWirePtrs_: \selectp2[16] 
+Gate g263 type: AND
+	inWirePtrs_: n270 n518 
+	outWirePtrs_: \selectp2[80] 
+Gate g89 type: AND
+	inWirePtrs_: n270 n345 
+	outWirePtrs_: \selectp1[48] 
+Gate g158 type: AND
+	inWirePtrs_: n270 n414 
+	outWirePtrs_: \selectp1[112] 
+Gate g228 type: AND
+	inWirePtrs_: n270 n483 
+	outWirePtrs_: \selectp2[48] 
+Gate g297 type: AND
+	inWirePtrs_: n270 n552 
+	outWirePtrs_: \selectp2[112] 
+Gate g71 type: AND
+	inWirePtrs_: n270 n327 
+	outWirePtrs_: \selectp1[32] 
+Gate g141 type: AND
+	inWirePtrs_: n270 n397 
+	outWirePtrs_: \selectp1[96] 
+Gate g211 type: AND
+	inWirePtrs_: n270 n466 
+	outWirePtrs_: \selectp2[32] 
+Gate g280 type: AND
+	inWirePtrs_: n270 n535 
+	outWirePtrs_: \selectp2[96] 
+Gate g107 type: AND
+	inWirePtrs_: n270 n363 
+	outWirePtrs_: \selectp1[64] 
+Gate g246 type: AND
+	inWirePtrs_: n270 n501 
+	outWirePtrs_: \selectp2[64] 
+Gate g14 type: AND
+	inWirePtrs_: n267 n270 
+	outWirePtrs_: \selectp1[0] 
+Gate g177 type: AND
+	inWirePtrs_: n270 n432 
+	outWirePtrs_: \selectp2[0] 
+Gate \selectp1[1] type: PO
+	inWirePtrs_: \selectp1[1] 
+	outWirePtrs_: 
+Gate \selectp1[17] type: PO
+	inWirePtrs_: \selectp1[17] 
+	outWirePtrs_: 
+Gate \selectp1[33] type: PO
+	inWirePtrs_: \selectp1[33] 
+	outWirePtrs_: 
+Gate \selectp1[49] type: PO
+	inWirePtrs_: \selectp1[49] 
+	outWirePtrs_: 
+Gate \selectp1[65] type: PO
+	inWirePtrs_: \selectp1[65] 
+	outWirePtrs_: 
+Gate \selectp1[81] type: PO
+	inWirePtrs_: \selectp1[81] 
+	outWirePtrs_: 
+Gate \selectp1[97] type: PO
+	inWirePtrs_: \selectp1[97] 
+	outWirePtrs_: 
+Gate \selectp1[113] type: PO
+	inWirePtrs_: \selectp1[113] 
+	outWirePtrs_: 
+Gate \selectp2[1] type: PO
+	inWirePtrs_: \selectp2[1] 
+	outWirePtrs_: 
+Gate \selectp2[17] type: PO
+	inWirePtrs_: \selectp2[17] 
+	outWirePtrs_: 
+Gate \selectp2[33] type: PO
+	inWirePtrs_: \selectp2[33] 
+	outWirePtrs_: 
+Gate \selectp2[49] type: PO
+	inWirePtrs_: \selectp2[49] 
+	outWirePtrs_: 
+Gate \selectp2[65] type: PO
+	inWirePtrs_: \selectp2[65] 
+	outWirePtrs_: 
+Gate \selectp2[81] type: PO
+	inWirePtrs_: \selectp2[81] 
+	outWirePtrs_: 
+Gate \selectp2[97] type: PO
+	inWirePtrs_: \selectp2[97] 
+	outWirePtrs_: 
+Gate \selectp2[113] type: PO
+	inWirePtrs_: \selectp2[113] 
+	outWirePtrs_: 
+Gate \selectp1[3] type: PO
+	inWirePtrs_: \selectp1[3] 
+	outWirePtrs_: 
+Gate \selectp1[19] type: PO
+	inWirePtrs_: \selectp1[19] 
+	outWirePtrs_: 
+Gate \selectp1[35] type: PO
+	inWirePtrs_: \selectp1[35] 
+	outWirePtrs_: 
+Gate \selectp1[51] type: PO
+	inWirePtrs_: \selectp1[51] 
+	outWirePtrs_: 
+Gate \selectp1[67] type: PO
+	inWirePtrs_: \selectp1[67] 
+	outWirePtrs_: 
+Gate \selectp1[83] type: PO
+	inWirePtrs_: \selectp1[83] 
+	outWirePtrs_: 
+Gate \selectp1[99] type: PO
+	inWirePtrs_: \selectp1[99] 
+	outWirePtrs_: 
+Gate \selectp1[115] type: PO
+	inWirePtrs_: \selectp1[115] 
+	outWirePtrs_: 
+Gate \selectp2[3] type: PO
+	inWirePtrs_: \selectp2[3] 
+	outWirePtrs_: 
+Gate \selectp2[19] type: PO
+	inWirePtrs_: \selectp2[19] 
+	outWirePtrs_: 
+Gate \selectp2[35] type: PO
+	inWirePtrs_: \selectp2[35] 
+	outWirePtrs_: 
+Gate \selectp2[51] type: PO
+	inWirePtrs_: \selectp2[51] 
+	outWirePtrs_: 
+Gate \selectp2[67] type: PO
+	inWirePtrs_: \selectp2[67] 
+	outWirePtrs_: 
+Gate \selectp2[83] type: PO
+	inWirePtrs_: \selectp2[83] 
+	outWirePtrs_: 
+Gate \selectp2[99] type: PO
+	inWirePtrs_: \selectp2[99] 
+	outWirePtrs_: 
+Gate \selectp2[115] type: PO
+	inWirePtrs_: \selectp2[115] 
+	outWirePtrs_: 
+Gate \selectp1[9] type: PO
+	inWirePtrs_: \selectp1[9] 
+	outWirePtrs_: 
+Gate \selectp1[25] type: PO
+	inWirePtrs_: \selectp1[25] 
+	outWirePtrs_: 
+Gate \selectp1[41] type: PO
+	inWirePtrs_: \selectp1[41] 
+	outWirePtrs_: 
+Gate \selectp1[57] type: PO
+	inWirePtrs_: \selectp1[57] 
+	outWirePtrs_: 
+Gate \selectp1[73] type: PO
+	inWirePtrs_: \selectp1[73] 
+	outWirePtrs_: 
+Gate \selectp1[89] type: PO
+	inWirePtrs_: \selectp1[89] 
+	outWirePtrs_: 
+Gate \selectp1[105] type: PO
+	inWirePtrs_: \selectp1[105] 
+	outWirePtrs_: 
+Gate \selectp1[121] type: PO
+	inWirePtrs_: \selectp1[121] 
+	outWirePtrs_: 
+Gate \selectp2[9] type: PO
+	inWirePtrs_: \selectp2[9] 
+	outWirePtrs_: 
+Gate \selectp2[25] type: PO
+	inWirePtrs_: \selectp2[25] 
+	outWirePtrs_: 
+Gate \selectp2[41] type: PO
+	inWirePtrs_: \selectp2[41] 
+	outWirePtrs_: 
+Gate \selectp2[57] type: PO
+	inWirePtrs_: \selectp2[57] 
+	outWirePtrs_: 
+Gate \selectp2[73] type: PO
+	inWirePtrs_: \selectp2[73] 
+	outWirePtrs_: 
+Gate \selectp2[89] type: PO
+	inWirePtrs_: \selectp2[89] 
+	outWirePtrs_: 
+Gate \selectp2[105] type: PO
+	inWirePtrs_: \selectp2[105] 
+	outWirePtrs_: 
+Gate \selectp2[121] type: PO
+	inWirePtrs_: \selectp2[121] 
+	outWirePtrs_: 
+Gate \selectp1[11] type: PO
+	inWirePtrs_: \selectp1[11] 
+	outWirePtrs_: 
+Gate \selectp1[27] type: PO
+	inWirePtrs_: \selectp1[27] 
+	outWirePtrs_: 
+Gate \selectp1[43] type: PO
+	inWirePtrs_: \selectp1[43] 
+	outWirePtrs_: 
+Gate \selectp1[59] type: PO
+	inWirePtrs_: \selectp1[59] 
+	outWirePtrs_: 
+Gate \selectp1[75] type: PO
+	inWirePtrs_: \selectp1[75] 
+	outWirePtrs_: 
+Gate \selectp1[91] type: PO
+	inWirePtrs_: \selectp1[91] 
+	outWirePtrs_: 
+Gate \selectp1[107] type: PO
+	inWirePtrs_: \selectp1[107] 
+	outWirePtrs_: 
+Gate \selectp1[123] type: PO
+	inWirePtrs_: \selectp1[123] 
+	outWirePtrs_: 
+Gate \selectp2[11] type: PO
+	inWirePtrs_: \selectp2[11] 
+	outWirePtrs_: 
+Gate \selectp2[27] type: PO
+	inWirePtrs_: \selectp2[27] 
+	outWirePtrs_: 
+Gate \selectp2[43] type: PO
+	inWirePtrs_: \selectp2[43] 
+	outWirePtrs_: 
+Gate \selectp2[59] type: PO
+	inWirePtrs_: \selectp2[59] 
+	outWirePtrs_: 
+Gate \selectp2[75] type: PO
+	inWirePtrs_: \selectp2[75] 
+	outWirePtrs_: 
+Gate \selectp2[91] type: PO
+	inWirePtrs_: \selectp2[91] 
+	outWirePtrs_: 
+Gate \selectp2[107] type: PO
+	inWirePtrs_: \selectp2[107] 
+	outWirePtrs_: 
+Gate \selectp2[123] type: PO
+	inWirePtrs_: \selectp2[123] 
+	outWirePtrs_: 
+Gate \selectp1[5] type: PO
+	inWirePtrs_: \selectp1[5] 
+	outWirePtrs_: 
+Gate \selectp1[21] type: PO
+	inWirePtrs_: \selectp1[21] 
+	outWirePtrs_: 
+Gate \selectp1[37] type: PO
+	inWirePtrs_: \selectp1[37] 
+	outWirePtrs_: 
+Gate \selectp1[53] type: PO
+	inWirePtrs_: \selectp1[53] 
+	outWirePtrs_: 
+Gate \selectp1[69] type: PO
+	inWirePtrs_: \selectp1[69] 
+	outWirePtrs_: 
+Gate \selectp1[85] type: PO
+	inWirePtrs_: \selectp1[85] 
+	outWirePtrs_: 
+Gate \selectp1[101] type: PO
+	inWirePtrs_: \selectp1[101] 
+	outWirePtrs_: 
+Gate \selectp1[117] type: PO
+	inWirePtrs_: \selectp1[117] 
+	outWirePtrs_: 
+Gate \selectp2[5] type: PO
+	inWirePtrs_: \selectp2[5] 
+	outWirePtrs_: 
+Gate \selectp2[21] type: PO
+	inWirePtrs_: \selectp2[21] 
+	outWirePtrs_: 
+Gate \selectp2[37] type: PO
+	inWirePtrs_: \selectp2[37] 
+	outWirePtrs_: 
+Gate \selectp2[53] type: PO
+	inWirePtrs_: \selectp2[53] 
+	outWirePtrs_: 
+Gate \selectp2[69] type: PO
+	inWirePtrs_: \selectp2[69] 
+	outWirePtrs_: 
+Gate \selectp2[85] type: PO
+	inWirePtrs_: \selectp2[85] 
+	outWirePtrs_: 
+Gate \selectp2[101] type: PO
+	inWirePtrs_: \selectp2[101] 
+	outWirePtrs_: 
+Gate \selectp2[117] type: PO
+	inWirePtrs_: \selectp2[117] 
+	outWirePtrs_: 
+Gate \selectp1[7] type: PO
+	inWirePtrs_: \selectp1[7] 
+	outWirePtrs_: 
+Gate \selectp1[23] type: PO
+	inWirePtrs_: \selectp1[23] 
+	outWirePtrs_: 
+Gate \selectp1[39] type: PO
+	inWirePtrs_: \selectp1[39] 
+	outWirePtrs_: 
+Gate \selectp1[55] type: PO
+	inWirePtrs_: \selectp1[55] 
+	outWirePtrs_: 
+Gate \selectp1[71] type: PO
+	inWirePtrs_: \selectp1[71] 
+	outWirePtrs_: 
+Gate \selectp1[87] type: PO
+	inWirePtrs_: \selectp1[87] 
+	outWirePtrs_: 
+Gate \selectp1[103] type: PO
+	inWirePtrs_: \selectp1[103] 
+	outWirePtrs_: 
+Gate \selectp1[119] type: PO
+	inWirePtrs_: \selectp1[119] 
+	outWirePtrs_: 
+Gate \selectp2[7] type: PO
+	inWirePtrs_: \selectp2[7] 
+	outWirePtrs_: 
+Gate \selectp2[23] type: PO
+	inWirePtrs_: \selectp2[23] 
+	outWirePtrs_: 
+Gate \selectp2[39] type: PO
+	inWirePtrs_: \selectp2[39] 
+	outWirePtrs_: 
+Gate \selectp2[55] type: PO
+	inWirePtrs_: \selectp2[55] 
+	outWirePtrs_: 
+Gate \selectp2[71] type: PO
+	inWirePtrs_: \selectp2[71] 
+	outWirePtrs_: 
+Gate \selectp2[87] type: PO
+	inWirePtrs_: \selectp2[87] 
+	outWirePtrs_: 
+Gate \selectp2[103] type: PO
+	inWirePtrs_: \selectp2[103] 
+	outWirePtrs_: 
+Gate \selectp2[119] type: PO
+	inWirePtrs_: \selectp2[119] 
+	outWirePtrs_: 
+Gate \selectp1[13] type: PO
+	inWirePtrs_: \selectp1[13] 
+	outWirePtrs_: 
+Gate \selectp1[29] type: PO
+	inWirePtrs_: \selectp1[29] 
+	outWirePtrs_: 
+Gate \selectp1[45] type: PO
+	inWirePtrs_: \selectp1[45] 
+	outWirePtrs_: 
+Gate \selectp1[61] type: PO
+	inWirePtrs_: \selectp1[61] 
+	outWirePtrs_: 
+Gate \selectp1[77] type: PO
+	inWirePtrs_: \selectp1[77] 
+	outWirePtrs_: 
+Gate \selectp1[93] type: PO
+	inWirePtrs_: \selectp1[93] 
+	outWirePtrs_: 
+Gate \selectp1[109] type: PO
+	inWirePtrs_: \selectp1[109] 
+	outWirePtrs_: 
+Gate \selectp1[125] type: PO
+	inWirePtrs_: \selectp1[125] 
+	outWirePtrs_: 
+Gate \selectp2[13] type: PO
+	inWirePtrs_: \selectp2[13] 
+	outWirePtrs_: 
+Gate \selectp2[29] type: PO
+	inWirePtrs_: \selectp2[29] 
+	outWirePtrs_: 
+Gate \selectp2[45] type: PO
+	inWirePtrs_: \selectp2[45] 
+	outWirePtrs_: 
+Gate \selectp2[61] type: PO
+	inWirePtrs_: \selectp2[61] 
+	outWirePtrs_: 
+Gate \selectp2[77] type: PO
+	inWirePtrs_: \selectp2[77] 
+	outWirePtrs_: 
+Gate \selectp2[93] type: PO
+	inWirePtrs_: \selectp2[93] 
+	outWirePtrs_: 
+Gate \selectp2[109] type: PO
+	inWirePtrs_: \selectp2[109] 
+	outWirePtrs_: 
+Gate \selectp2[125] type: PO
+	inWirePtrs_: \selectp2[125] 
+	outWirePtrs_: 
+Gate \selectp1[15] type: PO
+	inWirePtrs_: \selectp1[15] 
+	outWirePtrs_: 
+Gate \selectp1[31] type: PO
+	inWirePtrs_: \selectp1[31] 
+	outWirePtrs_: 
+Gate \selectp1[47] type: PO
+	inWirePtrs_: \selectp1[47] 
+	outWirePtrs_: 
+Gate \selectp1[63] type: PO
+	inWirePtrs_: \selectp1[63] 
+	outWirePtrs_: 
+Gate \selectp1[79] type: PO
+	inWirePtrs_: \selectp1[79] 
+	outWirePtrs_: 
+Gate \selectp1[95] type: PO
+	inWirePtrs_: \selectp1[95] 
+	outWirePtrs_: 
+Gate \selectp1[111] type: PO
+	inWirePtrs_: \selectp1[111] 
+	outWirePtrs_: 
+Gate \selectp1[127] type: PO
+	inWirePtrs_: \selectp1[127] 
+	outWirePtrs_: 
+Gate \selectp2[15] type: PO
+	inWirePtrs_: \selectp2[15] 
+	outWirePtrs_: 
+Gate \selectp2[31] type: PO
+	inWirePtrs_: \selectp2[31] 
+	outWirePtrs_: 
+Gate \selectp2[47] type: PO
+	inWirePtrs_: \selectp2[47] 
+	outWirePtrs_: 
+Gate \selectp2[63] type: PO
+	inWirePtrs_: \selectp2[63] 
+	outWirePtrs_: 
+Gate \selectp2[79] type: PO
+	inWirePtrs_: \selectp2[79] 
+	outWirePtrs_: 
+Gate \selectp2[95] type: PO
+	inWirePtrs_: \selectp2[95] 
+	outWirePtrs_: 
+Gate \selectp2[111] type: PO
+	inWirePtrs_: \selectp2[111] 
+	outWirePtrs_: 
+Gate \selectp2[127] type: PO
+	inWirePtrs_: \selectp2[127] 
+	outWirePtrs_: 
+Gate \selectp1[2] type: PO
+	inWirePtrs_: \selectp1[2] 
+	outWirePtrs_: 
+Gate \selectp1[18] type: PO
+	inWirePtrs_: \selectp1[18] 
+	outWirePtrs_: 
+Gate \selectp1[34] type: PO
+	inWirePtrs_: \selectp1[34] 
+	outWirePtrs_: 
+Gate \selectp1[50] type: PO
+	inWirePtrs_: \selectp1[50] 
+	outWirePtrs_: 
+Gate \selectp1[66] type: PO
+	inWirePtrs_: \selectp1[66] 
+	outWirePtrs_: 
+Gate \selectp1[82] type: PO
+	inWirePtrs_: \selectp1[82] 
+	outWirePtrs_: 
+Gate \selectp1[98] type: PO
+	inWirePtrs_: \selectp1[98] 
+	outWirePtrs_: 
+Gate \selectp1[114] type: PO
+	inWirePtrs_: \selectp1[114] 
+	outWirePtrs_: 
+Gate \selectp2[2] type: PO
+	inWirePtrs_: \selectp2[2] 
+	outWirePtrs_: 
+Gate \selectp2[18] type: PO
+	inWirePtrs_: \selectp2[18] 
+	outWirePtrs_: 
+Gate \selectp2[34] type: PO
+	inWirePtrs_: \selectp2[34] 
+	outWirePtrs_: 
+Gate \selectp2[50] type: PO
+	inWirePtrs_: \selectp2[50] 
+	outWirePtrs_: 
+Gate \selectp2[66] type: PO
+	inWirePtrs_: \selectp2[66] 
+	outWirePtrs_: 
+Gate \selectp2[82] type: PO
+	inWirePtrs_: \selectp2[82] 
+	outWirePtrs_: 
+Gate \selectp2[98] type: PO
+	inWirePtrs_: \selectp2[98] 
+	outWirePtrs_: 
+Gate \selectp2[114] type: PO
+	inWirePtrs_: \selectp2[114] 
+	outWirePtrs_: 
+Gate \selectp1[6] type: PO
+	inWirePtrs_: \selectp1[6] 
+	outWirePtrs_: 
+Gate \selectp1[22] type: PO
+	inWirePtrs_: \selectp1[22] 
+	outWirePtrs_: 
+Gate \selectp1[38] type: PO
+	inWirePtrs_: \selectp1[38] 
+	outWirePtrs_: 
+Gate \selectp1[54] type: PO
+	inWirePtrs_: \selectp1[54] 
+	outWirePtrs_: 
+Gate \selectp1[70] type: PO
+	inWirePtrs_: \selectp1[70] 
+	outWirePtrs_: 
+Gate \selectp1[86] type: PO
+	inWirePtrs_: \selectp1[86] 
+	outWirePtrs_: 
+Gate \selectp1[102] type: PO
+	inWirePtrs_: \selectp1[102] 
+	outWirePtrs_: 
+Gate \selectp1[118] type: PO
+	inWirePtrs_: \selectp1[118] 
+	outWirePtrs_: 
+Gate \selectp2[6] type: PO
+	inWirePtrs_: \selectp2[6] 
+	outWirePtrs_: 
+Gate \selectp2[22] type: PO
+	inWirePtrs_: \selectp2[22] 
+	outWirePtrs_: 
+Gate \selectp2[38] type: PO
+	inWirePtrs_: \selectp2[38] 
+	outWirePtrs_: 
+Gate \selectp2[54] type: PO
+	inWirePtrs_: \selectp2[54] 
+	outWirePtrs_: 
+Gate \selectp2[70] type: PO
+	inWirePtrs_: \selectp2[70] 
+	outWirePtrs_: 
+Gate \selectp2[86] type: PO
+	inWirePtrs_: \selectp2[86] 
+	outWirePtrs_: 
+Gate \selectp2[102] type: PO
+	inWirePtrs_: \selectp2[102] 
+	outWirePtrs_: 
+Gate \selectp2[118] type: PO
+	inWirePtrs_: \selectp2[118] 
+	outWirePtrs_: 
+Gate \selectp1[10] type: PO
+	inWirePtrs_: \selectp1[10] 
+	outWirePtrs_: 
+Gate \selectp1[26] type: PO
+	inWirePtrs_: \selectp1[26] 
+	outWirePtrs_: 
+Gate \selectp1[42] type: PO
+	inWirePtrs_: \selectp1[42] 
+	outWirePtrs_: 
+Gate \selectp1[58] type: PO
+	inWirePtrs_: \selectp1[58] 
+	outWirePtrs_: 
+Gate \selectp1[74] type: PO
+	inWirePtrs_: \selectp1[74] 
+	outWirePtrs_: 
+Gate \selectp1[90] type: PO
+	inWirePtrs_: \selectp1[90] 
+	outWirePtrs_: 
+Gate \selectp1[106] type: PO
+	inWirePtrs_: \selectp1[106] 
+	outWirePtrs_: 
+Gate \selectp1[122] type: PO
+	inWirePtrs_: \selectp1[122] 
+	outWirePtrs_: 
+Gate \selectp2[10] type: PO
+	inWirePtrs_: \selectp2[10] 
+	outWirePtrs_: 
+Gate \selectp2[26] type: PO
+	inWirePtrs_: \selectp2[26] 
+	outWirePtrs_: 
+Gate \selectp2[42] type: PO
+	inWirePtrs_: \selectp2[42] 
+	outWirePtrs_: 
+Gate \selectp2[58] type: PO
+	inWirePtrs_: \selectp2[58] 
+	outWirePtrs_: 
+Gate \selectp2[74] type: PO
+	inWirePtrs_: \selectp2[74] 
+	outWirePtrs_: 
+Gate \selectp2[90] type: PO
+	inWirePtrs_: \selectp2[90] 
+	outWirePtrs_: 
+Gate \selectp2[106] type: PO
+	inWirePtrs_: \selectp2[106] 
+	outWirePtrs_: 
+Gate \selectp2[122] type: PO
+	inWirePtrs_: \selectp2[122] 
+	outWirePtrs_: 
+Gate \selectp1[14] type: PO
+	inWirePtrs_: \selectp1[14] 
+	outWirePtrs_: 
+Gate \selectp1[30] type: PO
+	inWirePtrs_: \selectp1[30] 
+	outWirePtrs_: 
+Gate \selectp1[46] type: PO
+	inWirePtrs_: \selectp1[46] 
+	outWirePtrs_: 
+Gate \selectp1[62] type: PO
+	inWirePtrs_: \selectp1[62] 
+	outWirePtrs_: 
+Gate \selectp1[78] type: PO
+	inWirePtrs_: \selectp1[78] 
+	outWirePtrs_: 
+Gate \selectp1[94] type: PO
+	inWirePtrs_: \selectp1[94] 
+	outWirePtrs_: 
+Gate \selectp1[110] type: PO
+	inWirePtrs_: \selectp1[110] 
+	outWirePtrs_: 
+Gate \selectp1[126] type: PO
+	inWirePtrs_: \selectp1[126] 
+	outWirePtrs_: 
+Gate \selectp2[14] type: PO
+	inWirePtrs_: \selectp2[14] 
+	outWirePtrs_: 
+Gate \selectp2[30] type: PO
+	inWirePtrs_: \selectp2[30] 
+	outWirePtrs_: 
+Gate \selectp2[46] type: PO
+	inWirePtrs_: \selectp2[46] 
+	outWirePtrs_: 
+Gate \selectp2[62] type: PO
+	inWirePtrs_: \selectp2[62] 
+	outWirePtrs_: 
+Gate \selectp2[78] type: PO
+	inWirePtrs_: \selectp2[78] 
+	outWirePtrs_: 
+Gate \selectp2[94] type: PO
+	inWirePtrs_: \selectp2[94] 
+	outWirePtrs_: 
+Gate \selectp2[110] type: PO
+	inWirePtrs_: \selectp2[110] 
+	outWirePtrs_: 
+Gate \selectp2[126] type: PO
+	inWirePtrs_: \selectp2[126] 
+	outWirePtrs_: 
+Gate \selectp1[4] type: PO
+	inWirePtrs_: \selectp1[4] 
+	outWirePtrs_: 
+Gate \selectp1[20] type: PO
+	inWirePtrs_: \selectp1[20] 
+	outWirePtrs_: 
+Gate \selectp1[36] type: PO
+	inWirePtrs_: \selectp1[36] 
+	outWirePtrs_: 
+Gate \selectp1[52] type: PO
+	inWirePtrs_: \selectp1[52] 
+	outWirePtrs_: 
+Gate \selectp1[68] type: PO
+	inWirePtrs_: \selectp1[68] 
+	outWirePtrs_: 
+Gate \selectp1[84] type: PO
+	inWirePtrs_: \selectp1[84] 
+	outWirePtrs_: 
+Gate \selectp1[100] type: PO
+	inWirePtrs_: \selectp1[100] 
+	outWirePtrs_: 
+Gate \selectp1[116] type: PO
+	inWirePtrs_: \selectp1[116] 
+	outWirePtrs_: 
+Gate \selectp2[4] type: PO
+	inWirePtrs_: \selectp2[4] 
+	outWirePtrs_: 
+Gate \selectp2[20] type: PO
+	inWirePtrs_: \selectp2[20] 
+	outWirePtrs_: 
+Gate \selectp2[36] type: PO
+	inWirePtrs_: \selectp2[36] 
+	outWirePtrs_: 
+Gate \selectp2[52] type: PO
+	inWirePtrs_: \selectp2[52] 
+	outWirePtrs_: 
+Gate \selectp2[68] type: PO
+	inWirePtrs_: \selectp2[68] 
+	outWirePtrs_: 
+Gate \selectp2[84] type: PO
+	inWirePtrs_: \selectp2[84] 
+	outWirePtrs_: 
+Gate \selectp2[100] type: PO
+	inWirePtrs_: \selectp2[100] 
+	outWirePtrs_: 
+Gate \selectp2[116] type: PO
+	inWirePtrs_: \selectp2[116] 
+	outWirePtrs_: 
+Gate \selectp1[12] type: PO
+	inWirePtrs_: \selectp1[12] 
+	outWirePtrs_: 
+Gate \selectp1[28] type: PO
+	inWirePtrs_: \selectp1[28] 
+	outWirePtrs_: 
+Gate \selectp1[44] type: PO
+	inWirePtrs_: \selectp1[44] 
+	outWirePtrs_: 
+Gate \selectp1[60] type: PO
+	inWirePtrs_: \selectp1[60] 
+	outWirePtrs_: 
+Gate \selectp1[76] type: PO
+	inWirePtrs_: \selectp1[76] 
+	outWirePtrs_: 
+Gate \selectp1[92] type: PO
+	inWirePtrs_: \selectp1[92] 
+	outWirePtrs_: 
+Gate \selectp1[108] type: PO
+	inWirePtrs_: \selectp1[108] 
+	outWirePtrs_: 
+Gate \selectp1[124] type: PO
+	inWirePtrs_: \selectp1[124] 
+	outWirePtrs_: 
+Gate \selectp2[12] type: PO
+	inWirePtrs_: \selectp2[12] 
+	outWirePtrs_: 
+Gate \selectp2[28] type: PO
+	inWirePtrs_: \selectp2[28] 
+	outWirePtrs_: 
+Gate \selectp2[44] type: PO
+	inWirePtrs_: \selectp2[44] 
+	outWirePtrs_: 
+Gate \selectp2[60] type: PO
+	inWirePtrs_: \selectp2[60] 
+	outWirePtrs_: 
+Gate \selectp2[76] type: PO
+	inWirePtrs_: \selectp2[76] 
+	outWirePtrs_: 
+Gate \selectp2[92] type: PO
+	inWirePtrs_: \selectp2[92] 
+	outWirePtrs_: 
+Gate \selectp2[108] type: PO
+	inWirePtrs_: \selectp2[108] 
+	outWirePtrs_: 
+Gate \selectp2[124] type: PO
+	inWirePtrs_: \selectp2[124] 
+	outWirePtrs_: 
+Gate \selectp1[8] type: PO
+	inWirePtrs_: \selectp1[8] 
+	outWirePtrs_: 
+Gate \selectp1[24] type: PO
+	inWirePtrs_: \selectp1[24] 
+	outWirePtrs_: 
+Gate \selectp1[40] type: PO
+	inWirePtrs_: \selectp1[40] 
+	outWirePtrs_: 
+Gate \selectp1[56] type: PO
+	inWirePtrs_: \selectp1[56] 
+	outWirePtrs_: 
+Gate \selectp1[72] type: PO
+	inWirePtrs_: \selectp1[72] 
+	outWirePtrs_: 
+Gate \selectp1[88] type: PO
+	inWirePtrs_: \selectp1[88] 
+	outWirePtrs_: 
+Gate \selectp1[104] type: PO
+	inWirePtrs_: \selectp1[104] 
+	outWirePtrs_: 
+Gate \selectp1[120] type: PO
+	inWirePtrs_: \selectp1[120] 
+	outWirePtrs_: 
+Gate \selectp2[8] type: PO
+	inWirePtrs_: \selectp2[8] 
+	outWirePtrs_: 
+Gate \selectp2[24] type: PO
+	inWirePtrs_: \selectp2[24] 
+	outWirePtrs_: 
+Gate \selectp2[40] type: PO
+	inWirePtrs_: \selectp2[40] 
+	outWirePtrs_: 
+Gate \selectp2[56] type: PO
+	inWirePtrs_: \selectp2[56] 
+	outWirePtrs_: 
+Gate \selectp2[72] type: PO
+	inWirePtrs_: \selectp2[72] 
+	outWirePtrs_: 
+Gate \selectp2[88] type: PO
+	inWirePtrs_: \selectp2[88] 
+	outWirePtrs_: 
+Gate \selectp2[104] type: PO
+	inWirePtrs_: \selectp2[104] 
+	outWirePtrs_: 
+Gate \selectp2[120] type: PO
+	inWirePtrs_: \selectp2[120] 
+	outWirePtrs_: 
+Gate \selectp1[16] type: PO
+	inWirePtrs_: \selectp1[16] 
+	outWirePtrs_: 
+Gate \selectp1[80] type: PO
+	inWirePtrs_: \selectp1[80] 
+	outWirePtrs_: 
+Gate \selectp2[16] type: PO
+	inWirePtrs_: \selectp2[16] 
+	outWirePtrs_: 
+Gate \selectp2[80] type: PO
+	inWirePtrs_: \selectp2[80] 
+	outWirePtrs_: 
+Gate \selectp1[48] type: PO
+	inWirePtrs_: \selectp1[48] 
+	outWirePtrs_: 
+Gate \selectp1[112] type: PO
+	inWirePtrs_: \selectp1[112] 
+	outWirePtrs_: 
+Gate \selectp2[48] type: PO
+	inWirePtrs_: \selectp2[48] 
+	outWirePtrs_: 
+Gate \selectp2[112] type: PO
+	inWirePtrs_: \selectp2[112] 
+	outWirePtrs_: 
+Gate \selectp1[32] type: PO
+	inWirePtrs_: \selectp1[32] 
+	outWirePtrs_: 
+Gate \selectp1[96] type: PO
+	inWirePtrs_: \selectp1[96] 
+	outWirePtrs_: 
+Gate \selectp2[32] type: PO
+	inWirePtrs_: \selectp2[32] 
+	outWirePtrs_: 
+Gate \selectp2[96] type: PO
+	inWirePtrs_: \selectp2[96] 
+	outWirePtrs_: 
+Gate \selectp1[64] type: PO
+	inWirePtrs_: \selectp1[64] 
+	outWirePtrs_: 
+Gate \selectp2[64] type: PO
+	inWirePtrs_: \selectp2[64] 
+	outWirePtrs_: 
+Gate \selectp1[0] type: PO
+	inWirePtrs_: \selectp1[0] 
+	outWirePtrs_: 
+Gate \selectp2[0] type: PO
+	inWirePtrs_: \selectp2[0] 
+	outWirePtrs_: 
+Wire info:
+Wire \count[0]
+	inGatePtrs_: \count[0] 
+	outGatePtrs_: g7 g15 g26 
+Wire \count[1]
+	inGatePtrs_: \count[1] 
+	outGatePtrs_: g10 g18 g38 
+Wire \count[2]
+	inGatePtrs_: \count[2] 
+	outGatePtrs_: g8 g23 g26 
+Wire \count[3]
+	inGatePtrs_: \count[3] 
+	outGatePtrs_: g11 g33 g38 
+Wire \count[4]
+	inGatePtrs_: \count[4] 
+	outGatePtrs_: g1 g51 g87 
+Wire \count[5]
+	inGatePtrs_: \count[5] 
+	outGatePtrs_: g2 g69 g87 
+Wire \count[6]
+	inGatePtrs_: \count[6] 
+	outGatePtrs_: g4 g105 g244 
+Wire \count[7]
+	inGatePtrs_: \count[7] 
+	outGatePtrs_: g5 g105 g174 
+Wire n_10
+	inGatePtrs_: g7 
+	outGatePtrs_: g9 g23 
+Wire n272
+	inGatePtrs_: g15 
+	outGatePtrs_: g16 g21 g36 g41 
+Wire n283
+	inGatePtrs_: g26 
+	outGatePtrs_: g27 g31 g45 g49 
+Wire n_14
+	inGatePtrs_: g10 
+	outGatePtrs_: g12 g33 
+Wire n275
+	inGatePtrs_: g18 
+	outGatePtrs_: g19 g21 g29 g31 
+Wire n295
+	inGatePtrs_: g38 
+	outGatePtrs_: g39 g41 g47 g49 
+Wire n_11
+	inGatePtrs_: g8 
+	outGatePtrs_: g9 g15 
+Wire n280
+	inGatePtrs_: g23 
+	outGatePtrs_: g24 g29 g43 g47 
+Wire n_15
+	inGatePtrs_: g11 
+	outGatePtrs_: g12 g18 
+Wire n290
+	inGatePtrs_: g33 
+	outGatePtrs_: g34 g36 g43 g45 
+Wire n_3
+	inGatePtrs_: g1 
+	outGatePtrs_: g3 g69 
+Wire n308
+	inGatePtrs_: g51 
+	outGatePtrs_: g52 g123 g193 g262 
+Wire n344
+	inGatePtrs_: g87 
+	outGatePtrs_: g88 g157 g227 g296 
+Wire n_4
+	inGatePtrs_: g2 
+	outGatePtrs_: g3 g51 
+Wire n326
+	inGatePtrs_: g69 
+	outGatePtrs_: g70 g140 g210 g279 
+Wire n_6
+	inGatePtrs_: g4 
+	outGatePtrs_: g5 g175 
+Wire n362
+	inGatePtrs_: g105 
+	outGatePtrs_: g106 g123 g140 g157 
+Wire n500
+	inGatePtrs_: g244 
+	outGatePtrs_: g245 g262 g279 g296 
+Wire n266
+	inGatePtrs_: g5 
+	outGatePtrs_: g6 g52 g70 g88 
+Wire n_16
+	inGatePtrs_: g174 
+	outGatePtrs_: g175 g244 
+Wire n268
+	inGatePtrs_: g9 
+	outGatePtrs_: g13 g19 g34 g39 
+Wire n273
+	inGatePtrs_: g16 
+	outGatePtrs_: g17 g54 g72 g90 g108 g125 g142 g159 g178 g195 g212 g229 g247 g264 g281 g298 
+Wire n278
+	inGatePtrs_: g21 
+	outGatePtrs_: g22 g56 g74 g92 g110 g127 g144 g161 g180 g197 g214 g231 g249 g266 g283 g300 
+Wire n293
+	inGatePtrs_: g36 
+	outGatePtrs_: g37 g62 g80 g98 g116 g133 g150 g167 g186 g203 g220 g237 g255 g272 g289 g306 
+Wire n298
+	inGatePtrs_: g41 
+	outGatePtrs_: g42 g64 g82 g100 g118 g135 g152 g169 g188 g205 g222 g239 g257 g274 g291 g308 
+Wire n284
+	inGatePtrs_: g27 
+	outGatePtrs_: g28 g58 g76 g94 g112 g129 g146 g163 g182 g199 g216 g233 g251 g268 g285 g302 
+Wire n288
+	inGatePtrs_: g31 
+	outGatePtrs_: g32 g60 g78 g96 g114 g131 g148 g165 g184 g201 g218 g235 g253 g270 g287 g304 
+Wire n302
+	inGatePtrs_: g45 
+	outGatePtrs_: g46 g66 g84 g102 g120 g137 g154 g171 g190 g207 g224 g241 g259 g276 g293 g310 
+Wire n306
+	inGatePtrs_: g49 
+	outGatePtrs_: g50 g68 g86 g104 g122 g139 g156 g173 g192 g209 g226 g243 g261 g278 g295 g312 
+Wire n269
+	inGatePtrs_: g12 
+	outGatePtrs_: g13 g16 g24 g27 
+Wire n276
+	inGatePtrs_: g19 
+	outGatePtrs_: g20 g55 g73 g91 g109 g126 g143 g160 g179 g196 g213 g230 g248 g265 g282 g299 
+Wire n286
+	inGatePtrs_: g29 
+	outGatePtrs_: g30 g59 g77 g95 g113 g130 g147 g164 g183 g200 g217 g234 g252 g269 g286 g303 
+Wire n296
+	inGatePtrs_: g39 
+	outGatePtrs_: g40 g63 g81 g99 g117 g134 g151 g168 g187 g204 g221 g238 g256 g273 g290 g307 
+Wire n304
+	inGatePtrs_: g47 
+	outGatePtrs_: g48 g67 g85 g103 g121 g138 g155 g172 g191 g208 g225 g242 g260 g277 g294 g311 
+Wire n281
+	inGatePtrs_: g24 
+	outGatePtrs_: g25 g57 g75 g93 g111 g128 g145 g162 g181 g198 g215 g232 g250 g267 g284 g301 
+Wire n300
+	inGatePtrs_: g43 
+	outGatePtrs_: g44 g65 g83 g101 g119 g136 g153 g170 g189 g206 g223 g240 g258 g275 g292 g309 
+Wire n291
+	inGatePtrs_: g34 
+	outGatePtrs_: g35 g61 g79 g97 g115 g132 g149 g166 g185 g202 g219 g236 g254 g271 g288 g305 
+Wire n265
+	inGatePtrs_: g3 
+	outGatePtrs_: g6 g106 g176 g245 
+Wire n309
+	inGatePtrs_: g52 
+	outGatePtrs_: g53 g54 g55 g56 g57 g58 g59 g60 g61 g62 g63 g64 g65 g66 g67 g68 
+Wire n380
+	inGatePtrs_: g123 
+	outGatePtrs_: g124 g125 g126 g127 g128 g129 g130 g131 g132 g133 g134 g135 g136 g137 g138 g139 
+Wire n449
+	inGatePtrs_: g193 
+	outGatePtrs_: g194 g195 g196 g197 g198 g199 g200 g201 g202 g203 g204 g205 g206 g207 g208 g209 
+Wire n518
+	inGatePtrs_: g262 
+	outGatePtrs_: g263 g264 g265 g266 g267 g268 g269 g270 g271 g272 g273 g274 g275 g276 g277 g278 
+Wire n345
+	inGatePtrs_: g88 
+	outGatePtrs_: g89 g90 g91 g92 g93 g94 g95 g96 g97 g98 g99 g100 g101 g102 g103 g104 
+Wire n414
+	inGatePtrs_: g157 
+	outGatePtrs_: g158 g159 g160 g161 g162 g163 g164 g165 g166 g167 g168 g169 g170 g171 g172 g173 
+Wire n483
+	inGatePtrs_: g227 
+	outGatePtrs_: g228 g229 g230 g231 g232 g233 g234 g235 g236 g237 g238 g239 g240 g241 g242 g243 
+Wire n552
+	inGatePtrs_: g296 
+	outGatePtrs_: g297 g298 g299 g300 g301 g302 g303 g304 g305 g306 g307 g308 g309 g310 g311 g312 
+Wire n327
+	inGatePtrs_: g70 
+	outGatePtrs_: g71 g72 g73 g74 g75 g76 g77 g78 g79 g80 g81 g82 g83 g84 g85 g86 
+Wire n397
+	inGatePtrs_: g140 
+	outGatePtrs_: g141 g142 g143 g144 g145 g146 g147 g148 g149 g150 g151 g152 g153 g154 g155 g156 
+Wire n466
+	inGatePtrs_: g210 
+	outGatePtrs_: g211 g212 g213 g214 g215 g216 g217 g218 g219 g220 g221 g222 g223 g224 g225 g226 
+Wire n535
+	inGatePtrs_: g279 
+	outGatePtrs_: g280 g281 g282 g283 g284 g285 g286 g287 g288 g289 g290 g291 g292 g293 g294 g295 
+Wire n431
+	inGatePtrs_: g175 
+	outGatePtrs_: g176 g193 g210 g227 
+Wire n363
+	inGatePtrs_: g106 
+	outGatePtrs_: g107 g108 g109 g110 g111 g112 g113 g114 g115 g116 g117 g118 g119 g120 g121 g122 
+Wire n501
+	inGatePtrs_: g245 
+	outGatePtrs_: g246 g247 g248 g249 g250 g251 g252 g253 g254 g255 g256 g257 g258 g259 g260 g261 
+Wire n267
+	inGatePtrs_: g6 
+	outGatePtrs_: g14 g17 g20 g22 g25 g28 g30 g32 g35 g37 g40 g42 g44 g46 g48 g50 
+Wire n270
+	inGatePtrs_: g13 
+	outGatePtrs_: g14 g53 g71 g89 g107 g124 g141 g158 g177 g194 g211 g228 g246 g263 g280 g297 
+Wire \selectp1[1]
+	inGatePtrs_: g17 
+	outGatePtrs_: \selectp1[1] 
+Wire \selectp1[17]
+	inGatePtrs_: g54 
+	outGatePtrs_: \selectp1[17] 
+Wire \selectp1[33]
+	inGatePtrs_: g72 
+	outGatePtrs_: \selectp1[33] 
+Wire \selectp1[49]
+	inGatePtrs_: g90 
+	outGatePtrs_: \selectp1[49] 
+Wire \selectp1[65]
+	inGatePtrs_: g108 
+	outGatePtrs_: \selectp1[65] 
+Wire \selectp1[81]
+	inGatePtrs_: g125 
+	outGatePtrs_: \selectp1[81] 
+Wire \selectp1[97]
+	inGatePtrs_: g142 
+	outGatePtrs_: \selectp1[97] 
+Wire \selectp1[113]
+	inGatePtrs_: g159 
+	outGatePtrs_: \selectp1[113] 
+Wire \selectp2[1]
+	inGatePtrs_: g178 
+	outGatePtrs_: \selectp2[1] 
+Wire \selectp2[17]
+	inGatePtrs_: g195 
+	outGatePtrs_: \selectp2[17] 
+Wire \selectp2[33]
+	inGatePtrs_: g212 
+	outGatePtrs_: \selectp2[33] 
+Wire \selectp2[49]
+	inGatePtrs_: g229 
+	outGatePtrs_: \selectp2[49] 
+Wire \selectp2[65]
+	inGatePtrs_: g247 
+	outGatePtrs_: \selectp2[65] 
+Wire \selectp2[81]
+	inGatePtrs_: g264 
+	outGatePtrs_: \selectp2[81] 
+Wire \selectp2[97]
+	inGatePtrs_: g281 
+	outGatePtrs_: \selectp2[97] 
+Wire \selectp2[113]
+	inGatePtrs_: g298 
+	outGatePtrs_: \selectp2[113] 
+Wire \selectp1[3]
+	inGatePtrs_: g22 
+	outGatePtrs_: \selectp1[3] 
+Wire \selectp1[19]
+	inGatePtrs_: g56 
+	outGatePtrs_: \selectp1[19] 
+Wire \selectp1[35]
+	inGatePtrs_: g74 
+	outGatePtrs_: \selectp1[35] 
+Wire \selectp1[51]
+	inGatePtrs_: g92 
+	outGatePtrs_: \selectp1[51] 
+Wire \selectp1[67]
+	inGatePtrs_: g110 
+	outGatePtrs_: \selectp1[67] 
+Wire \selectp1[83]
+	inGatePtrs_: g127 
+	outGatePtrs_: \selectp1[83] 
+Wire \selectp1[99]
+	inGatePtrs_: g144 
+	outGatePtrs_: \selectp1[99] 
+Wire \selectp1[115]
+	inGatePtrs_: g161 
+	outGatePtrs_: \selectp1[115] 
+Wire \selectp2[3]
+	inGatePtrs_: g180 
+	outGatePtrs_: \selectp2[3] 
+Wire \selectp2[19]
+	inGatePtrs_: g197 
+	outGatePtrs_: \selectp2[19] 
+Wire \selectp2[35]
+	inGatePtrs_: g214 
+	outGatePtrs_: \selectp2[35] 
+Wire \selectp2[51]
+	inGatePtrs_: g231 
+	outGatePtrs_: \selectp2[51] 
+Wire \selectp2[67]
+	inGatePtrs_: g249 
+	outGatePtrs_: \selectp2[67] 
+Wire \selectp2[83]
+	inGatePtrs_: g266 
+	outGatePtrs_: \selectp2[83] 
+Wire \selectp2[99]
+	inGatePtrs_: g283 
+	outGatePtrs_: \selectp2[99] 
+Wire \selectp2[115]
+	inGatePtrs_: g300 
+	outGatePtrs_: \selectp2[115] 
+Wire \selectp1[9]
+	inGatePtrs_: g37 
+	outGatePtrs_: \selectp1[9] 
+Wire \selectp1[25]
+	inGatePtrs_: g62 
+	outGatePtrs_: \selectp1[25] 
+Wire \selectp1[41]
+	inGatePtrs_: g80 
+	outGatePtrs_: \selectp1[41] 
+Wire \selectp1[57]
+	inGatePtrs_: g98 
+	outGatePtrs_: \selectp1[57] 
+Wire \selectp1[73]
+	inGatePtrs_: g116 
+	outGatePtrs_: \selectp1[73] 
+Wire \selectp1[89]
+	inGatePtrs_: g133 
+	outGatePtrs_: \selectp1[89] 
+Wire \selectp1[105]
+	inGatePtrs_: g150 
+	outGatePtrs_: \selectp1[105] 
+Wire \selectp1[121]
+	inGatePtrs_: g167 
+	outGatePtrs_: \selectp1[121] 
+Wire \selectp2[9]
+	inGatePtrs_: g186 
+	outGatePtrs_: \selectp2[9] 
+Wire \selectp2[25]
+	inGatePtrs_: g203 
+	outGatePtrs_: \selectp2[25] 
+Wire \selectp2[41]
+	inGatePtrs_: g220 
+	outGatePtrs_: \selectp2[41] 
+Wire \selectp2[57]
+	inGatePtrs_: g237 
+	outGatePtrs_: \selectp2[57] 
+Wire \selectp2[73]
+	inGatePtrs_: g255 
+	outGatePtrs_: \selectp2[73] 
+Wire \selectp2[89]
+	inGatePtrs_: g272 
+	outGatePtrs_: \selectp2[89] 
+Wire \selectp2[105]
+	inGatePtrs_: g289 
+	outGatePtrs_: \selectp2[105] 
+Wire \selectp2[121]
+	inGatePtrs_: g306 
+	outGatePtrs_: \selectp2[121] 
+Wire \selectp1[11]
+	inGatePtrs_: g42 
+	outGatePtrs_: \selectp1[11] 
+Wire \selectp1[27]
+	inGatePtrs_: g64 
+	outGatePtrs_: \selectp1[27] 
+Wire \selectp1[43]
+	inGatePtrs_: g82 
+	outGatePtrs_: \selectp1[43] 
+Wire \selectp1[59]
+	inGatePtrs_: g100 
+	outGatePtrs_: \selectp1[59] 
+Wire \selectp1[75]
+	inGatePtrs_: g118 
+	outGatePtrs_: \selectp1[75] 
+Wire \selectp1[91]
+	inGatePtrs_: g135 
+	outGatePtrs_: \selectp1[91] 
+Wire \selectp1[107]
+	inGatePtrs_: g152 
+	outGatePtrs_: \selectp1[107] 
+Wire \selectp1[123]
+	inGatePtrs_: g169 
+	outGatePtrs_: \selectp1[123] 
+Wire \selectp2[11]
+	inGatePtrs_: g188 
+	outGatePtrs_: \selectp2[11] 
+Wire \selectp2[27]
+	inGatePtrs_: g205 
+	outGatePtrs_: \selectp2[27] 
+Wire \selectp2[43]
+	inGatePtrs_: g222 
+	outGatePtrs_: \selectp2[43] 
+Wire \selectp2[59]
+	inGatePtrs_: g239 
+	outGatePtrs_: \selectp2[59] 
+Wire \selectp2[75]
+	inGatePtrs_: g257 
+	outGatePtrs_: \selectp2[75] 
+Wire \selectp2[91]
+	inGatePtrs_: g274 
+	outGatePtrs_: \selectp2[91] 
+Wire \selectp2[107]
+	inGatePtrs_: g291 
+	outGatePtrs_: \selectp2[107] 
+Wire \selectp2[123]
+	inGatePtrs_: g308 
+	outGatePtrs_: \selectp2[123] 
+Wire \selectp1[5]
+	inGatePtrs_: g28 
+	outGatePtrs_: \selectp1[5] 
+Wire \selectp1[21]
+	inGatePtrs_: g58 
+	outGatePtrs_: \selectp1[21] 
+Wire \selectp1[37]
+	inGatePtrs_: g76 
+	outGatePtrs_: \selectp1[37] 
+Wire \selectp1[53]
+	inGatePtrs_: g94 
+	outGatePtrs_: \selectp1[53] 
+Wire \selectp1[69]
+	inGatePtrs_: g112 
+	outGatePtrs_: \selectp1[69] 
+Wire \selectp1[85]
+	inGatePtrs_: g129 
+	outGatePtrs_: \selectp1[85] 
+Wire \selectp1[101]
+	inGatePtrs_: g146 
+	outGatePtrs_: \selectp1[101] 
+Wire \selectp1[117]
+	inGatePtrs_: g163 
+	outGatePtrs_: \selectp1[117] 
+Wire \selectp2[5]
+	inGatePtrs_: g182 
+	outGatePtrs_: \selectp2[5] 
+Wire \selectp2[21]
+	inGatePtrs_: g199 
+	outGatePtrs_: \selectp2[21] 
+Wire \selectp2[37]
+	inGatePtrs_: g216 
+	outGatePtrs_: \selectp2[37] 
+Wire \selectp2[53]
+	inGatePtrs_: g233 
+	outGatePtrs_: \selectp2[53] 
+Wire \selectp2[69]
+	inGatePtrs_: g251 
+	outGatePtrs_: \selectp2[69] 
+Wire \selectp2[85]
+	inGatePtrs_: g268 
+	outGatePtrs_: \selectp2[85] 
+Wire \selectp2[101]
+	inGatePtrs_: g285 
+	outGatePtrs_: \selectp2[101] 
+Wire \selectp2[117]
+	inGatePtrs_: g302 
+	outGatePtrs_: \selectp2[117] 
+Wire \selectp1[7]
+	inGatePtrs_: g32 
+	outGatePtrs_: \selectp1[7] 
+Wire \selectp1[23]
+	inGatePtrs_: g60 
+	outGatePtrs_: \selectp1[23] 
+Wire \selectp1[39]
+	inGatePtrs_: g78 
+	outGatePtrs_: \selectp1[39] 
+Wire \selectp1[55]
+	inGatePtrs_: g96 
+	outGatePtrs_: \selectp1[55] 
+Wire \selectp1[71]
+	inGatePtrs_: g114 
+	outGatePtrs_: \selectp1[71] 
+Wire \selectp1[87]
+	inGatePtrs_: g131 
+	outGatePtrs_: \selectp1[87] 
+Wire \selectp1[103]
+	inGatePtrs_: g148 
+	outGatePtrs_: \selectp1[103] 
+Wire \selectp1[119]
+	inGatePtrs_: g165 
+	outGatePtrs_: \selectp1[119] 
+Wire \selectp2[7]
+	inGatePtrs_: g184 
+	outGatePtrs_: \selectp2[7] 
+Wire \selectp2[23]
+	inGatePtrs_: g201 
+	outGatePtrs_: \selectp2[23] 
+Wire \selectp2[39]
+	inGatePtrs_: g218 
+	outGatePtrs_: \selectp2[39] 
+Wire \selectp2[55]
+	inGatePtrs_: g235 
+	outGatePtrs_: \selectp2[55] 
+Wire \selectp2[71]
+	inGatePtrs_: g253 
+	outGatePtrs_: \selectp2[71] 
+Wire \selectp2[87]
+	inGatePtrs_: g270 
+	outGatePtrs_: \selectp2[87] 
+Wire \selectp2[103]
+	inGatePtrs_: g287 
+	outGatePtrs_: \selectp2[103] 
+Wire \selectp2[119]
+	inGatePtrs_: g304 
+	outGatePtrs_: \selectp2[119] 
+Wire \selectp1[13]
+	inGatePtrs_: g46 
+	outGatePtrs_: \selectp1[13] 
+Wire \selectp1[29]
+	inGatePtrs_: g66 
+	outGatePtrs_: \selectp1[29] 
+Wire \selectp1[45]
+	inGatePtrs_: g84 
+	outGatePtrs_: \selectp1[45] 
+Wire \selectp1[61]
+	inGatePtrs_: g102 
+	outGatePtrs_: \selectp1[61] 
+Wire \selectp1[77]
+	inGatePtrs_: g120 
+	outGatePtrs_: \selectp1[77] 
+Wire \selectp1[93]
+	inGatePtrs_: g137 
+	outGatePtrs_: \selectp1[93] 
+Wire \selectp1[109]
+	inGatePtrs_: g154 
+	outGatePtrs_: \selectp1[109] 
+Wire \selectp1[125]
+	inGatePtrs_: g171 
+	outGatePtrs_: \selectp1[125] 
+Wire \selectp2[13]
+	inGatePtrs_: g190 
+	outGatePtrs_: \selectp2[13] 
+Wire \selectp2[29]
+	inGatePtrs_: g207 
+	outGatePtrs_: \selectp2[29] 
+Wire \selectp2[45]
+	inGatePtrs_: g224 
+	outGatePtrs_: \selectp2[45] 
+Wire \selectp2[61]
+	inGatePtrs_: g241 
+	outGatePtrs_: \selectp2[61] 
+Wire \selectp2[77]
+	inGatePtrs_: g259 
+	outGatePtrs_: \selectp2[77] 
+Wire \selectp2[93]
+	inGatePtrs_: g276 
+	outGatePtrs_: \selectp2[93] 
+Wire \selectp2[109]
+	inGatePtrs_: g293 
+	outGatePtrs_: \selectp2[109] 
+Wire \selectp2[125]
+	inGatePtrs_: g310 
+	outGatePtrs_: \selectp2[125] 
+Wire \selectp1[15]
+	inGatePtrs_: g50 
+	outGatePtrs_: \selectp1[15] 
+Wire \selectp1[31]
+	inGatePtrs_: g68 
+	outGatePtrs_: \selectp1[31] 
+Wire \selectp1[47]
+	inGatePtrs_: g86 
+	outGatePtrs_: \selectp1[47] 
+Wire \selectp1[63]
+	inGatePtrs_: g104 
+	outGatePtrs_: \selectp1[63] 
+Wire \selectp1[79]
+	inGatePtrs_: g122 
+	outGatePtrs_: \selectp1[79] 
+Wire \selectp1[95]
+	inGatePtrs_: g139 
+	outGatePtrs_: \selectp1[95] 
+Wire \selectp1[111]
+	inGatePtrs_: g156 
+	outGatePtrs_: \selectp1[111] 
+Wire \selectp1[127]
+	inGatePtrs_: g173 
+	outGatePtrs_: \selectp1[127] 
+Wire \selectp2[15]
+	inGatePtrs_: g192 
+	outGatePtrs_: \selectp2[15] 
+Wire \selectp2[31]
+	inGatePtrs_: g209 
+	outGatePtrs_: \selectp2[31] 
+Wire \selectp2[47]
+	inGatePtrs_: g226 
+	outGatePtrs_: \selectp2[47] 
+Wire \selectp2[63]
+	inGatePtrs_: g243 
+	outGatePtrs_: \selectp2[63] 
+Wire \selectp2[79]
+	inGatePtrs_: g261 
+	outGatePtrs_: \selectp2[79] 
+Wire \selectp2[95]
+	inGatePtrs_: g278 
+	outGatePtrs_: \selectp2[95] 
+Wire \selectp2[111]
+	inGatePtrs_: g295 
+	outGatePtrs_: \selectp2[111] 
+Wire \selectp2[127]
+	inGatePtrs_: g312 
+	outGatePtrs_: \selectp2[127] 
+Wire \selectp1[2]
+	inGatePtrs_: g20 
+	outGatePtrs_: \selectp1[2] 
+Wire \selectp1[18]
+	inGatePtrs_: g55 
+	outGatePtrs_: \selectp1[18] 
+Wire \selectp1[34]
+	inGatePtrs_: g73 
+	outGatePtrs_: \selectp1[34] 
+Wire \selectp1[50]
+	inGatePtrs_: g91 
+	outGatePtrs_: \selectp1[50] 
+Wire \selectp1[66]
+	inGatePtrs_: g109 
+	outGatePtrs_: \selectp1[66] 
+Wire \selectp1[82]
+	inGatePtrs_: g126 
+	outGatePtrs_: \selectp1[82] 
+Wire \selectp1[98]
+	inGatePtrs_: g143 
+	outGatePtrs_: \selectp1[98] 
+Wire \selectp1[114]
+	inGatePtrs_: g160 
+	outGatePtrs_: \selectp1[114] 
+Wire \selectp2[2]
+	inGatePtrs_: g179 
+	outGatePtrs_: \selectp2[2] 
+Wire \selectp2[18]
+	inGatePtrs_: g196 
+	outGatePtrs_: \selectp2[18] 
+Wire \selectp2[34]
+	inGatePtrs_: g213 
+	outGatePtrs_: \selectp2[34] 
+Wire \selectp2[50]
+	inGatePtrs_: g230 
+	outGatePtrs_: \selectp2[50] 
+Wire \selectp2[66]
+	inGatePtrs_: g248 
+	outGatePtrs_: \selectp2[66] 
+Wire \selectp2[82]
+	inGatePtrs_: g265 
+	outGatePtrs_: \selectp2[82] 
+Wire \selectp2[98]
+	inGatePtrs_: g282 
+	outGatePtrs_: \selectp2[98] 
+Wire \selectp2[114]
+	inGatePtrs_: g299 
+	outGatePtrs_: \selectp2[114] 
+Wire \selectp1[6]
+	inGatePtrs_: g30 
+	outGatePtrs_: \selectp1[6] 
+Wire \selectp1[22]
+	inGatePtrs_: g59 
+	outGatePtrs_: \selectp1[22] 
+Wire \selectp1[38]
+	inGatePtrs_: g77 
+	outGatePtrs_: \selectp1[38] 
+Wire \selectp1[54]
+	inGatePtrs_: g95 
+	outGatePtrs_: \selectp1[54] 
+Wire \selectp1[70]
+	inGatePtrs_: g113 
+	outGatePtrs_: \selectp1[70] 
+Wire \selectp1[86]
+	inGatePtrs_: g130 
+	outGatePtrs_: \selectp1[86] 
+Wire \selectp1[102]
+	inGatePtrs_: g147 
+	outGatePtrs_: \selectp1[102] 
+Wire \selectp1[118]
+	inGatePtrs_: g164 
+	outGatePtrs_: \selectp1[118] 
+Wire \selectp2[6]
+	inGatePtrs_: g183 
+	outGatePtrs_: \selectp2[6] 
+Wire \selectp2[22]
+	inGatePtrs_: g200 
+	outGatePtrs_: \selectp2[22] 
+Wire \selectp2[38]
+	inGatePtrs_: g217 
+	outGatePtrs_: \selectp2[38] 
+Wire \selectp2[54]
+	inGatePtrs_: g234 
+	outGatePtrs_: \selectp2[54] 
+Wire \selectp2[70]
+	inGatePtrs_: g252 
+	outGatePtrs_: \selectp2[70] 
+Wire \selectp2[86]
+	inGatePtrs_: g269 
+	outGatePtrs_: \selectp2[86] 
+Wire \selectp2[102]
+	inGatePtrs_: g286 
+	outGatePtrs_: \selectp2[102] 
+Wire \selectp2[118]
+	inGatePtrs_: g303 
+	outGatePtrs_: \selectp2[118] 
+Wire \selectp1[10]
+	inGatePtrs_: g40 
+	outGatePtrs_: \selectp1[10] 
+Wire \selectp1[26]
+	inGatePtrs_: g63 
+	outGatePtrs_: \selectp1[26] 
+Wire \selectp1[42]
+	inGatePtrs_: g81 
+	outGatePtrs_: \selectp1[42] 
+Wire \selectp1[58]
+	inGatePtrs_: g99 
+	outGatePtrs_: \selectp1[58] 
+Wire \selectp1[74]
+	inGatePtrs_: g117 
+	outGatePtrs_: \selectp1[74] 
+Wire \selectp1[90]
+	inGatePtrs_: g134 
+	outGatePtrs_: \selectp1[90] 
+Wire \selectp1[106]
+	inGatePtrs_: g151 
+	outGatePtrs_: \selectp1[106] 
+Wire \selectp1[122]
+	inGatePtrs_: g168 
+	outGatePtrs_: \selectp1[122] 
+Wire \selectp2[10]
+	inGatePtrs_: g187 
+	outGatePtrs_: \selectp2[10] 
+Wire \selectp2[26]
+	inGatePtrs_: g204 
+	outGatePtrs_: \selectp2[26] 
+Wire \selectp2[42]
+	inGatePtrs_: g221 
+	outGatePtrs_: \selectp2[42] 
+Wire \selectp2[58]
+	inGatePtrs_: g238 
+	outGatePtrs_: \selectp2[58] 
+Wire \selectp2[74]
+	inGatePtrs_: g256 
+	outGatePtrs_: \selectp2[74] 
+Wire \selectp2[90]
+	inGatePtrs_: g273 
+	outGatePtrs_: \selectp2[90] 
+Wire \selectp2[106]
+	inGatePtrs_: g290 
+	outGatePtrs_: \selectp2[106] 
+Wire \selectp2[122]
+	inGatePtrs_: g307 
+	outGatePtrs_: \selectp2[122] 
+Wire \selectp1[14]
+	inGatePtrs_: g48 
+	outGatePtrs_: \selectp1[14] 
+Wire \selectp1[30]
+	inGatePtrs_: g67 
+	outGatePtrs_: \selectp1[30] 
+Wire \selectp1[46]
+	inGatePtrs_: g85 
+	outGatePtrs_: \selectp1[46] 
+Wire \selectp1[62]
+	inGatePtrs_: g103 
+	outGatePtrs_: \selectp1[62] 
+Wire \selectp1[78]
+	inGatePtrs_: g121 
+	outGatePtrs_: \selectp1[78] 
+Wire \selectp1[94]
+	inGatePtrs_: g138 
+	outGatePtrs_: \selectp1[94] 
+Wire \selectp1[110]
+	inGatePtrs_: g155 
+	outGatePtrs_: \selectp1[110] 
+Wire \selectp1[126]
+	inGatePtrs_: g172 
+	outGatePtrs_: \selectp1[126] 
+Wire \selectp2[14]
+	inGatePtrs_: g191 
+	outGatePtrs_: \selectp2[14] 
+Wire \selectp2[30]
+	inGatePtrs_: g208 
+	outGatePtrs_: \selectp2[30] 
+Wire \selectp2[46]
+	inGatePtrs_: g225 
+	outGatePtrs_: \selectp2[46] 
+Wire \selectp2[62]
+	inGatePtrs_: g242 
+	outGatePtrs_: \selectp2[62] 
+Wire \selectp2[78]
+	inGatePtrs_: g260 
+	outGatePtrs_: \selectp2[78] 
+Wire \selectp2[94]
+	inGatePtrs_: g277 
+	outGatePtrs_: \selectp2[94] 
+Wire \selectp2[110]
+	inGatePtrs_: g294 
+	outGatePtrs_: \selectp2[110] 
+Wire \selectp2[126]
+	inGatePtrs_: g311 
+	outGatePtrs_: \selectp2[126] 
+Wire \selectp1[4]
+	inGatePtrs_: g25 
+	outGatePtrs_: \selectp1[4] 
+Wire \selectp1[20]
+	inGatePtrs_: g57 
+	outGatePtrs_: \selectp1[20] 
+Wire \selectp1[36]
+	inGatePtrs_: g75 
+	outGatePtrs_: \selectp1[36] 
+Wire \selectp1[52]
+	inGatePtrs_: g93 
+	outGatePtrs_: \selectp1[52] 
+Wire \selectp1[68]
+	inGatePtrs_: g111 
+	outGatePtrs_: \selectp1[68] 
+Wire \selectp1[84]
+	inGatePtrs_: g128 
+	outGatePtrs_: \selectp1[84] 
+Wire \selectp1[100]
+	inGatePtrs_: g145 
+	outGatePtrs_: \selectp1[100] 
+Wire \selectp1[116]
+	inGatePtrs_: g162 
+	outGatePtrs_: \selectp1[116] 
+Wire \selectp2[4]
+	inGatePtrs_: g181 
+	outGatePtrs_: \selectp2[4] 
+Wire \selectp2[20]
+	inGatePtrs_: g198 
+	outGatePtrs_: \selectp2[20] 
+Wire \selectp2[36]
+	inGatePtrs_: g215 
+	outGatePtrs_: \selectp2[36] 
+Wire \selectp2[52]
+	inGatePtrs_: g232 
+	outGatePtrs_: \selectp2[52] 
+Wire \selectp2[68]
+	inGatePtrs_: g250 
+	outGatePtrs_: \selectp2[68] 
+Wire \selectp2[84]
+	inGatePtrs_: g267 
+	outGatePtrs_: \selectp2[84] 
+Wire \selectp2[100]
+	inGatePtrs_: g284 
+	outGatePtrs_: \selectp2[100] 
+Wire \selectp2[116]
+	inGatePtrs_: g301 
+	outGatePtrs_: \selectp2[116] 
+Wire \selectp1[12]
+	inGatePtrs_: g44 
+	outGatePtrs_: \selectp1[12] 
+Wire \selectp1[28]
+	inGatePtrs_: g65 
+	outGatePtrs_: \selectp1[28] 
+Wire \selectp1[44]
+	inGatePtrs_: g83 
+	outGatePtrs_: \selectp1[44] 
+Wire \selectp1[60]
+	inGatePtrs_: g101 
+	outGatePtrs_: \selectp1[60] 
+Wire \selectp1[76]
+	inGatePtrs_: g119 
+	outGatePtrs_: \selectp1[76] 
+Wire \selectp1[92]
+	inGatePtrs_: g136 
+	outGatePtrs_: \selectp1[92] 
+Wire \selectp1[108]
+	inGatePtrs_: g153 
+	outGatePtrs_: \selectp1[108] 
+Wire \selectp1[124]
+	inGatePtrs_: g170 
+	outGatePtrs_: \selectp1[124] 
+Wire \selectp2[12]
+	inGatePtrs_: g189 
+	outGatePtrs_: \selectp2[12] 
+Wire \selectp2[28]
+	inGatePtrs_: g206 
+	outGatePtrs_: \selectp2[28] 
+Wire \selectp2[44]
+	inGatePtrs_: g223 
+	outGatePtrs_: \selectp2[44] 
+Wire \selectp2[60]
+	inGatePtrs_: g240 
+	outGatePtrs_: \selectp2[60] 
+Wire \selectp2[76]
+	inGatePtrs_: g258 
+	outGatePtrs_: \selectp2[76] 
+Wire \selectp2[92]
+	inGatePtrs_: g275 
+	outGatePtrs_: \selectp2[92] 
+Wire \selectp2[108]
+	inGatePtrs_: g292 
+	outGatePtrs_: \selectp2[108] 
+Wire \selectp2[124]
+	inGatePtrs_: g309 
+	outGatePtrs_: \selectp2[124] 
+Wire \selectp1[8]
+	inGatePtrs_: g35 
+	outGatePtrs_: \selectp1[8] 
+Wire \selectp1[24]
+	inGatePtrs_: g61 
+	outGatePtrs_: \selectp1[24] 
+Wire \selectp1[40]
+	inGatePtrs_: g79 
+	outGatePtrs_: \selectp1[40] 
+Wire \selectp1[56]
+	inGatePtrs_: g97 
+	outGatePtrs_: \selectp1[56] 
+Wire \selectp1[72]
+	inGatePtrs_: g115 
+	outGatePtrs_: \selectp1[72] 
+Wire \selectp1[88]
+	inGatePtrs_: g132 
+	outGatePtrs_: \selectp1[88] 
+Wire \selectp1[104]
+	inGatePtrs_: g149 
+	outGatePtrs_: \selectp1[104] 
+Wire \selectp1[120]
+	inGatePtrs_: g166 
+	outGatePtrs_: \selectp1[120] 
+Wire \selectp2[8]
+	inGatePtrs_: g185 
+	outGatePtrs_: \selectp2[8] 
+Wire \selectp2[24]
+	inGatePtrs_: g202 
+	outGatePtrs_: \selectp2[24] 
+Wire \selectp2[40]
+	inGatePtrs_: g219 
+	outGatePtrs_: \selectp2[40] 
+Wire \selectp2[56]
+	inGatePtrs_: g236 
+	outGatePtrs_: \selectp2[56] 
+Wire \selectp2[72]
+	inGatePtrs_: g254 
+	outGatePtrs_: \selectp2[72] 
+Wire \selectp2[88]
+	inGatePtrs_: g271 
+	outGatePtrs_: \selectp2[88] 
+Wire \selectp2[104]
+	inGatePtrs_: g288 
+	outGatePtrs_: \selectp2[104] 
+Wire \selectp2[120]
+	inGatePtrs_: g305 
+	outGatePtrs_: \selectp2[120] 
+Wire n432
+	inGatePtrs_: g176 
+	outGatePtrs_: g177 g178 g179 g180 g181 g182 g183 g184 g185 g186 g187 g188 g189 g190 g191 g192 
+Wire \selectp1[16]
+	inGatePtrs_: g53 
+	outGatePtrs_: \selectp1[16] 
+Wire \selectp1[80]
+	inGatePtrs_: g124 
+	outGatePtrs_: \selectp1[80] 
+Wire \selectp2[16]
+	inGatePtrs_: g194 
+	outGatePtrs_: \selectp2[16] 
+Wire \selectp2[80]
+	inGatePtrs_: g263 
+	outGatePtrs_: \selectp2[80] 
+Wire \selectp1[48]
+	inGatePtrs_: g89 
+	outGatePtrs_: \selectp1[48] 
+Wire \selectp1[112]
+	inGatePtrs_: g158 
+	outGatePtrs_: \selectp1[112] 
+Wire \selectp2[48]
+	inGatePtrs_: g228 
+	outGatePtrs_: \selectp2[48] 
+Wire \selectp2[112]
+	inGatePtrs_: g297 
+	outGatePtrs_: \selectp2[112] 
+Wire \selectp1[32]
+	inGatePtrs_: g71 
+	outGatePtrs_: \selectp1[32] 
+Wire \selectp1[96]
+	inGatePtrs_: g141 
+	outGatePtrs_: \selectp1[96] 
+Wire \selectp2[32]
+	inGatePtrs_: g211 
+	outGatePtrs_: \selectp2[32] 
+Wire \selectp2[96]
+	inGatePtrs_: g280 
+	outGatePtrs_: \selectp2[96] 
+Wire \selectp1[64]
+	inGatePtrs_: g107 
+	outGatePtrs_: \selectp1[64] 
+Wire \selectp2[64]
+	inGatePtrs_: g246 
+	outGatePtrs_: \selectp2[64] 
+Wire \selectp1[0]
+	inGatePtrs_: g14 
+	outGatePtrs_: \selectp1[0] 
+Wire \selectp2[0]
+	inGatePtrs_: g177 
+	outGatePtrs_: \selectp2[0] 
