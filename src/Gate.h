@@ -52,6 +52,7 @@ public:
     std::vector<Wire*> inWirePtrs_;
     std::vector<Wire*> outWirePtrs_;
 
+    bool outputInserted_;
     bool inserted_;
     bool camouflaged_;
 
@@ -68,6 +69,8 @@ public:
     inline ~Wire(){
 
     }
+    bool outputInserted_;
+    int potentialKeyHardness_;
     bool topoSorted_;
     int index_;
     int level_;
