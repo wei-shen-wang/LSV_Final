@@ -17,6 +17,12 @@ public:
         for(int i = 0;i<wirePtrs_.size();++i){
             delete wirePtrs_[i];
         }
+        for(int i = 0;i<insertedKeyGatePtrs_.size();++i){
+            delete insertedKeyGatePtrs_[i];
+        }
+        for(int i = 0;i<insertedKeyWirePtrs_.size();++i){
+            delete insertedKeyWirePtrs_[i];
+        }
     }
     inline int get5PercentNumGates(){
         int ret = gatePtrs_.size()/20;
@@ -30,14 +36,22 @@ public:
         if(ret < 2){
             ret = 2;
         }
+        return ret;
     }
+    std::string name_;
     int keyGateInsertionScore_;
-    std::vector<Gate*> keyGatePtrs_; // key gate locations
-    int findKeyGateMetric(Gate* gate1Ptr, Gate* gate2Ptr);
+    std::vector<Gate*> insertedKeyGatePtrs_;
+    std::vector<Wire*> insertedKeyWirePtrs_;
+    std::vector<Wire*> keyGateLocationCandidates_; // key gate locations
+    int findKeyGateMetric(Gate* keyGatePtr, Wire* candidateKeyWirePtr);
+    void insertOneKeyGate(Wire* pWire);
     void insertInitialRandomKeyGates();
     void changeKeyVal();
     void insertKeyGates();
     void mergeKeyGate2OriginalCircuit();
+    void calculateAllOriginalWirePOs();
+    void calculateKeyGateLocationCandidates();
+
     void topologicalSort();
 
     std::vector<Gate*> gatePtrs_;

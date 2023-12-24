@@ -1,3 +1,4 @@
 bin/obfuscate*
 .vscode*
 output.txt
+./good_benchmark/*.log

@@ -21,7 +21,7 @@ public:
     }
     int parseFile();
     int displayCircuitInfo();
-    // void parseLine(const std::string &line);
+    void writeVerilog();
     int tokenIndex_;
     int assignIndex_;
     int wireIndex_;

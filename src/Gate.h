@@ -2,6 +2,8 @@
 #define GATE_H
 #include <string>
 #include <unordered_map>
+#include <vector>
+#include <unordered_set>
 class Wire;
 class Gate;
 class Gate{
@@ -41,7 +43,7 @@ public:
     inline ~Gate(){
 
     }
-    inline std::string getTypeString(){
+    inline const std::string getTypeString(){
         return type2String[type_];
     }
     bool topoSorted_;
@@ -51,6 +53,7 @@ public:
     Type type_;
     std::vector<Wire*> inWirePtrs_;
     std::vector<Wire*> outWirePtrs_;
+    int keyBitVal_;
 
     bool outputInserted_;
     bool inserted_;
@@ -65,17 +68,22 @@ public:
         name_ = name;
         level_ = -1;
         topoSorted_ = false;
+        outputInserted_ = false;
+        inserted_ = false;
     }
     inline ~Wire(){
 
     }
+    bool inserted_;
     bool outputInserted_;
     int potentialKeyHardness_;
+    std::unordered_set<Gate*> POGatePtrs_;
+
     bool topoSorted_;
     int index_;
     int level_;
     std::string name_;
-    std::vector<Gate*> inGatePtrs_;
+    Gate* inGatePtr_;
     std::vector<Gate*> outGatePtrs_;
 
 };
