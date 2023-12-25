@@ -179,6 +179,8 @@ void Parser::parseFile(){
                     pGate->inWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[5]]);
                     pWire_in1->outGatePtrs_.push_back(pGate);
                     this->pCircuit_->name2WirePtr_[this->tokens_[5]]->outGatePtrs_.push_back(pGate);
+                    this->pCircuit_->gatePtrs_.push_back(pGate);
+                    this->pCircuit_->name2GatePtr_[gateName] = pGate;
                     ++this->gateIndex_;
 
                     std::string gateName1 = gateName + "_ing1";
@@ -188,6 +190,8 @@ void Parser::parseFile(){
                     pGate_in1->inWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[4]]);
                     this->pCircuit_->name2WirePtr_[this->tokens_[3]]->outGatePtrs_.push_back(pGate_in1);
                     this->pCircuit_->name2WirePtr_[this->tokens_[4]]->outGatePtrs_.push_back(pGate_in1);
+                    this->pCircuit_->gatePtrs_.push_back(pGate_in1);
+                    this->pCircuit_->name2GatePtr_[gateName1] = pGate_in1;
                     pGate_in1->outWirePtrs_.push_back(pWire_in1);
                     pWire_in1->inGatePtr_ = pGate_in1;
                     ++this->gateIndex_;
@@ -196,8 +200,8 @@ void Parser::parseFile(){
                         // and/or
                         pGate->outWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[2]]);
                         this->pCircuit_->name2WirePtr_[this->tokens_[2]]->inGatePtr_ = pGate;
-                        this->pCircuit_->gatePtrs_.push_back(pGate);
-                        this->pCircuit_->name2GatePtr_[gateName] = pGate;
+                        // this->pCircuit_->gatePtrs_.push_back(pGate);
+                        // this->pCircuit_->name2GatePtr_[gateName] = pGate;
                     }
                     else{
                         std::string wireNameOut = gateName + "_invw";
@@ -206,6 +210,8 @@ void Parser::parseFile(){
                         pWire_out->index_ = this->pCircuit_->wirePtrs_.size();
                         this->pCircuit_->wirePtrs_.push_back(pWire_out);
                         this->pCircuit_->name2WirePtr_[wireNameOut] = pWire_out;
+                        pGate->outWirePtrs_.push_back(pWire_out);
+                        pWire_out->inGatePtr_ = pGate;
                         std::string gateNameOut = gateName + "_outg";
                         Gate* pGate_inv = new Gate(gateNameOut, Gate::NOT);
                         pGate_inv->index_ = this->gateIndex_;
@@ -248,6 +254,8 @@ void Parser::parseFile(){
                     pGate->inWirePtrs_.push_back(pWire_in2);
                     pWire_in1->outGatePtrs_.push_back(pGate);
                     pWire_in2->outGatePtrs_.push_back(pGate);
+                    this->pCircuit_->gatePtrs_.push_back(pGate);
+                    this->pCircuit_->name2GatePtr_[gateName] = pGate;
                     ++this->gateIndex_;
 
                     std::string gateName1 = gateName + "_ing1";
@@ -259,6 +267,8 @@ void Parser::parseFile(){
                     this->pCircuit_->name2WirePtr_[this->tokens_[4]]->outGatePtrs_.push_back(pGate_in1);
                     pGate_in1->outWirePtrs_.push_back(pWire_in1);
                     pWire_in1->inGatePtr_ = pGate_in1;
+                    this->pCircuit_->gatePtrs_.push_back(pGate_in1);
+                    this->pCircuit_->name2GatePtr_[gateName1] = pGate_in1;
                     ++this->gateIndex_;
 
                     std::string gateName2 = gateName + "_ing2";
@@ -270,14 +280,16 @@ void Parser::parseFile(){
                     this->pCircuit_->name2WirePtr_[this->tokens_[6]]->outGatePtrs_.push_back(pGate_in2);
                     pGate_in2->outWirePtrs_.push_back(pWire_in2);
                     pWire_in2->inGatePtr_ = pGate_in2;
+                    this->pCircuit_->gatePtrs_.push_back(pGate_in2);
+                    this->pCircuit_->name2GatePtr_[gateName2] = pGate_in2;
                     ++this->gateIndex_;
 
                     if(this->tokens_[0] == "and" || this->tokens_[0] == "or"){
                         // and/or
                         pGate->outWirePtrs_.push_back(this->pCircuit_->name2WirePtr_[this->tokens_[2]]);
                         this->pCircuit_->name2WirePtr_[this->tokens_[2]]->inGatePtr_ = pGate;
-                        this->pCircuit_->gatePtrs_.push_back(pGate);
-                        this->pCircuit_->name2GatePtr_[gateName] = pGate;
+                        // this->pCircuit_->gatePtrs_.push_back(pGate);
+                        // this->pCircuit_->name2GatePtr_[gateName] = pGate;
                     }
                     else{
                         std::string wireNameOut = gateName + "_invw";
