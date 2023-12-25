@@ -1,9 +1,9 @@
 #ifndef GATE_H
 #define GATE_H
 #include <string>
-#include <unordered_map>
+#include <map>
 #include <vector>
-#include <unordered_set>
+#include <set>
 class Wire;
 class Gate;
 class Gate{
@@ -20,7 +20,7 @@ public:
         XOR,
         XNOR
     };
-    std::unordered_map<Type, std::string> type2String = {
+    std::map<Type, std::string> type2String = {
         {PI, "PI"},
         {PO, "PO"},
         {NOT, "NOT"},
@@ -77,7 +77,7 @@ public:
     bool inserted_;
     bool outputInserted_;
     int potentialKeyHardness_;
-    std::unordered_set<Gate*> POGatePtrs_;
+    std::set<Gate*> POGatePtrs_;
 
     bool topoSorted_;
     int index_;

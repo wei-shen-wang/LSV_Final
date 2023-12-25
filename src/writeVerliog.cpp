@@ -35,14 +35,17 @@ void Parser::writeVerilog(){
         }
     }
     outFile << ";\n";
-    outFile << "\tinput ";
-    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i) {
-        outFile << "key_" << i;
-        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
-            outFile << ", ";
+    if (this->pCircuit_->insertedKeyWirePtrs_.size() != 0)
+    {
+        outFile << "\tinput ";
+        for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i) {
+            outFile << "key_" << i;
+            if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
+                outFile << ", ";
+            }
         }
+        outFile << ";\n";
     }
-    outFile << ";\n";
     outFile << "\toutput ";
     for (int i = 0; i < int(this->pCircuit_->outputNames_.size()); ++i)
     {
@@ -61,24 +64,27 @@ void Parser::writeVerilog(){
         }
     }
     outFile << ";\n";
-    outFile << "\twire ";
-    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
+    if (this->pCircuit_->insertedKeyWirePtrs_.size() != 0)
     {
-        outFile << this->pCircuit_->insertedKeyWirePtrs_[i]->name_;
-        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
-            outFile << ", ";
+        outFile << "\twire ";
+        for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
+        {
+            outFile << this->pCircuit_->insertedKeyWirePtrs_[i]->name_;
+            if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
+                outFile << ", ";
+            }
         }
-    }
-    outFile << ";\n";
-    outFile << "\twire ";
-    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
-    {
-        outFile << "key_" << i;
-        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
-            outFile << ", ";
+        outFile << ";\n";
+        outFile << "\twire ";
+        for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
+        {
+            outFile << "key_" << i;
+            if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
+                outFile << ", ";
+            }
         }
+        outFile << ";\n";
     }
-    outFile << ";\n";
 
     for (int i = 0; i < int(this->pCircuit_->gatePtrs_.size()); ++i)
     {

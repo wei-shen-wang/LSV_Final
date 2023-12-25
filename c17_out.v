@@ -1,5 +1,5 @@
-module c17(N7, N6, N3, N2, N1, key_0, key_1, key_2, N22_key, N23_key);
-	input N7, N6, N3, N2, N1;
+module c17(N1, N2, N3, N6, N7, key_0, key_1, key_2, N22_key, N23_key);
+	input N1, N2, N3, N6, N7;
 	input key_0, key_1, key_2;
 	output N22_key, N23_key;
 	wire N1, N2, N3, N6, N7, N10, N16, N11, N19, N22, N23;
