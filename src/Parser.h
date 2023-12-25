@@ -19,8 +19,8 @@ public:
     inline ~Parser(){
         delete pCircuit_;
     }
-    int parseFile();
-    int displayCircuitInfo();
+    void parseFile();
+    void displayCircuitInfo();
     void writeVerilog();
     int tokenIndex_;
     int assignIndex_;

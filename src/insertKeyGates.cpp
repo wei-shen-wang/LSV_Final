@@ -15,7 +15,7 @@ void Circuit::insertOneKeyGate(Wire* pWire){
     pKeyGate->outWirePtrs_.push_back(pKeyWire);
     pKeyWire->outGatePtrs_ = originalWireFanoutGatePtrs;
     for (Gate* pGate : originalWireFanoutGatePtrs){
-        for (int i = 0; i < pGate->inWirePtrs_.size(); ++i){
+        for (int i = 0; i < int(pGate->inWirePtrs_.size()); ++i){
             if(pGate->inWirePtrs_[i] == pWire){
                 pGate->inWirePtrs_[i] = pKeyWire;
             }
@@ -154,7 +154,7 @@ void Circuit::insertKeyGates(){
     int num5PercentGates = this->get5PercentNumGates();
     Gate* pLastInsertedKeyGate = nullptr;
     int insertedIndex = 0;
-    while (this->insertedKeyGatePtrs_.size() < num5PercentGates){
+    while (int(this->insertedKeyGatePtrs_.size()) < num5PercentGates){
         if(this->keyGateLocationCandidates_.size() == 0){
             break;
         }

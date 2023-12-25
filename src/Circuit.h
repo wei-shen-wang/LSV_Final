@@ -11,16 +11,16 @@ public:
 
     }
     inline ~Circuit(){
-        for(int i = 0;i<gatePtrs_.size();++i){
+        for(int i = 0;i<int(gatePtrs_.size());++i){
             delete gatePtrs_[i];
         }
-        for(int i = 0;i<wirePtrs_.size();++i){
+        for(int i = 0;i<int(wirePtrs_.size());++i){
             delete wirePtrs_[i];
         }
-        for(int i = 0;i<insertedKeyGatePtrs_.size();++i){
+        for(int i = 0;i<int(insertedKeyGatePtrs_.size());++i){
             delete insertedKeyGatePtrs_[i];
         }
-        for(int i = 0;i<insertedKeyWirePtrs_.size();++i){
+        for(int i = 0;i<int(insertedKeyWirePtrs_.size());++i){
             delete insertedKeyWirePtrs_[i];
         }
     }

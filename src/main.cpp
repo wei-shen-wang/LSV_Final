@@ -7,10 +7,10 @@ int main(int argc, char *argv[]){
     Parser parser(filename);
     parser.parseFile();
     parser.pCircuit_->topologicalSort();
-    parser.pCircuit_->calculateKeyGateLocationCandidates();
-    parser.pCircuit_->calculateAllOriginalWirePOs();
-    parser.pCircuit_->insertKeyGates();
-    parser.writeVerilog();
+    // parser.pCircuit_->calculateKeyGateLocationCandidates();
+    // parser.pCircuit_->calculateAllOriginalWirePOs();
+    // parser.pCircuit_->insertKeyGates();
+    // parser.writeVerilog();
     // parser.displayCircuitInfo();
     // for (Wire* pWire: parser.pCircuit_->keyGateLocationCandidates_){
     //     std::cout << "wire: " << pWire->name_ << " ";

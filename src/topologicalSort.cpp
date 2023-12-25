@@ -4,7 +4,7 @@ void Circuit::topologicalSort(){
     std::queue<Gate*> tempGatePtrs;
     std::vector<Gate*> topoOrderGatePtrs;
     std::vector<Wire*> topoOrderWirePtrs;
-    for (int i = 0; i < this->gatePtrs_.size(); ++i){
+    for (int i = 0; i < int(this->gatePtrs_.size()); ++i){
         Gate* pGate = this->gatePtrs_[i];
         if (pGate->type_ == Gate::PI){
             topoOrderGatePtrs.push_back(pGate);
@@ -16,13 +16,13 @@ void Circuit::topologicalSort(){
     {
         Gate* pGate = tempGatePtrs.front();
         tempGatePtrs.pop();
-        for (int i = 0; i < pGate->outWirePtrs_.size(); ++i){
+        for (int i = 0; i < int(pGate->outWirePtrs_.size()); ++i){
             Wire* pWire = pGate->outWirePtrs_[i];
             if(!pWire->topoSorted_){
                 topoOrderWirePtrs.push_back(pWire);
                 pWire->topoSorted_ = true;
             }
-            for (int j = 0; j < pWire->outGatePtrs_.size(); ++j){
+            for (int j = 0; j < int(pWire->outGatePtrs_.size()); ++j){
                 Gate* pOutGate = pWire->outGatePtrs_[j];
                 if(!pOutGate->topoSorted_){
                     tempGatePtrs.push(pOutGate);

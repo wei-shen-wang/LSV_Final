@@ -11,76 +11,76 @@ void Parser::writeVerilog(){
         exit(1);
     }
     outFile << "module " << this->pCircuit_->name_ << "(";
-    for (int i = 0; i < this->pCircuit_->inputNames_.size(); ++i) {
+    for (int i = 0; i < int(this->pCircuit_->inputNames_.size()); ++i) {
         outFile << *std::next(this->pCircuit_->inputNames_.begin(), i);
         outFile << ", ";
     }
-    for (int i = 0; i < this->pCircuit_->insertedKeyWirePtrs_.size(); ++i) {
+    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i) {
         outFile << "key_" << i;
         outFile << ", ";
     }
-    for (int i = 0; i < this->pCircuit_->outputNames_.size(); ++i) {
+    for (int i = 0; i < int(this->pCircuit_->outputNames_.size()); ++i) {
         outFile << *std::next(this->pCircuit_->outputNames_.begin(), i);
-        if (i != this->pCircuit_->outputNames_.size() - 1)
+        if (i != int(this->pCircuit_->outputNames_.size()) - 1)
         {
             outFile << ", ";
         }
     }
     outFile << ");\n";
     outFile << "\tinput ";
-    for (int i = 0; i < this->pCircuit_->inputNames_.size(); ++i) {
+    for (int i = 0; i < int(this->pCircuit_->inputNames_.size()); ++i) {
         outFile << *std::next(this->pCircuit_->inputNames_.begin(), i);
-        if(i != this->pCircuit_->inputNames_.size() - 1){
+        if(i != int(this->pCircuit_->inputNames_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
     outFile << "\tinput ";
-    for (int i = 0; i < this->pCircuit_->insertedKeyWirePtrs_.size(); ++i) {
+    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i) {
         outFile << "key_" << i;
-        if(i != this->pCircuit_->insertedKeyWirePtrs_.size() - 1){
+        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
     outFile << "\toutput ";
-    for (int i = 0; i < this->pCircuit_->outputNames_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->outputNames_.size()); ++i)
     {
         outFile << *std::next(this->pCircuit_->outputNames_.begin(), i);
-        if(i != this->pCircuit_->outputNames_.size() - 1){
+        if(i != int(this->pCircuit_->outputNames_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
     outFile << "\twire ";
-    for (int i = 0; i < this->pCircuit_->wirePtrs_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->wirePtrs_.size()); ++i)
     {
         outFile << this->pCircuit_->wirePtrs_[i]->name_;
-        if(i != this->pCircuit_->wirePtrs_.size() - 1){
+        if(i != int(this->pCircuit_->wirePtrs_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
     outFile << "\twire ";
-    for (int i = 0; i < this->pCircuit_->insertedKeyWirePtrs_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
     {
         outFile << this->pCircuit_->insertedKeyWirePtrs_[i]->name_;
-        if(i != this->pCircuit_->insertedKeyWirePtrs_.size() - 1){
+        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
     outFile << "\twire ";
-    for (int i = 0; i < this->pCircuit_->insertedKeyWirePtrs_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->insertedKeyWirePtrs_.size()); ++i)
     {
         outFile << "key_" << i;
-        if(i != this->pCircuit_->insertedKeyWirePtrs_.size() - 1){
+        if(i != int(this->pCircuit_->insertedKeyWirePtrs_.size()) - 1){
             outFile << ", ";
         }
     }
     outFile << ";\n";
 
-    for (int i = 0; i < this->pCircuit_->gatePtrs_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->gatePtrs_.size()); ++i)
     {
         Gate* pGate = this->pCircuit_->gatePtrs_[i];
         if(pGate->type_ == Gate::PI || pGate->type_ == Gate::PO){
@@ -98,7 +98,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::NAND:
                 outFile << "~( " << pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " & " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -106,7 +106,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::AND:
                 outFile << "( " << pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " & " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -114,7 +114,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::NOR:
                 outFile << "~( " << pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " | " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -122,7 +122,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::OR:
                 outFile << "( " << pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " | " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -130,7 +130,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::XOR:
                 outFile << "( " <<  pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " ^ " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -138,7 +138,7 @@ void Parser::writeVerilog(){
                 break;
             case Gate::XNOR:
                 outFile << "~( " << pGate->inWirePtrs_[0]->name_;
-                for (int i = 1; i < pGate->inWirePtrs_.size(); ++i)
+                for (int i = 1; i < int(pGate->inWirePtrs_.size()); ++i)
                 {
                     outFile << " ^ " << pGate->inWirePtrs_[i]->name_;
                 }
@@ -150,7 +150,7 @@ void Parser::writeVerilog(){
             outFile << ";\n";
         }
     }
-    for (int i = 0; i < this->pCircuit_->insertedKeyGatePtrs_.size(); ++i)
+    for (int i = 0; i < int(this->pCircuit_->insertedKeyGatePtrs_.size()); ++i)
     {
         Gate *pGate = this->pCircuit_->insertedKeyGatePtrs_[i];
         if (pGate->type_ == Gate::PI || pGate->type_ == Gate::PO)
