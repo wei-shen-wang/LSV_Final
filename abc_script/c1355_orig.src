@@ -1,0 +1,3 @@
+read_verilog c1355_orig.v
+strash
+print_stats

@@ -1,0 +1,3 @@
+read_verilog c880_out.v
+strash
+print_stats

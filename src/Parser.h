@@ -29,5 +29,5 @@ public:
     std::vector<std::string> tokens_;
     Circuit* pCircuit_;
     std::string filename_;
-
+    std::string outputFilenameAppend_;
 };

@@ -3,7 +3,7 @@
 void Parser::writeVerilog(){
     this->filename_.erase(this->filename_.begin(),this->filename_.begin() + this->filename_.find_last_of("/") + 1);
     this->filename_.resize(this->filename_.size() - 2);
-    std::string path = this->filename_ + "_out.v";
+    std::string path = this->filename_ + this->outputFilenameAppend_;
     std::ofstream outFile(path, std::ofstream::out);
     if (!outFile) {
         std::cerr << "cannot open output file";

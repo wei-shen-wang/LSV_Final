@@ -9,10 +9,12 @@ int main(int argc, char *argv[]){
     parser.pCircuit_->topologicalSort();
     parser.pCircuit_->calculateKeyGateLocationCandidates();
     parser.pCircuit_->calculateAllOriginalWirePOs();
+    parser.outputFilenameAppend_ = "_orig.v";
     if(argc > 2){
         std::string option(argv[2]);
         if(option == "-insertKeyGate"){
             parser.pCircuit_->insertKeyGates();
+            parser.outputFilenameAppend_ = "_out.v";
         }
         else{
             std::cout << "Unknown argument\n";
