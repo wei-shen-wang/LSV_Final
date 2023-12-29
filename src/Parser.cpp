@@ -10,7 +10,7 @@ void Parser::parseFile(){
     std::stringstream sstream;
     // int lineNumber;
     bool verilogEndline = false;
-    int maxFanin = 0;
+    // int maxFanin = 0;
     while (!inFile.eof() && !inFile.bad()) {
         word.clear();
         inFile >> word;
