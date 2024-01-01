@@ -4,7 +4,7 @@
 
     r12943102_r12943103.zip
         r12943102_r12943103/
-        |-- LSV_Final
+        |-- LSV_Final/
         |    |-- abc/
         |    |-- abc_script/
         |    |-- benchmarks/
@@ -15,7 +15,13 @@
         |    |-- runall_abc.sh
         |    |-- runall_insertKey.sh
         |    `-- runall_orig.sh
-        |-- README.md
+        |-- Reference_Paper/
+        |    |-- Security_analysis_of_logic_obfuscation.pdf
+        |    |-- Secuirty_Analysis_of_IC_Camouflaging.pdf
+        |    `-- Ending_Piracy_of_ICs.pdf
+        |-- LSV_final_report.pdf
+        |-- LSV_final_presentation.pdf
+        `-- README.md
 
 - `LSV_Final`
     - `src`: Our source codes for implementation of Synthesis for Security.
@@ -51,8 +57,13 @@
         - Type `./abc/abc -f c17_out.src` to execute the script and see the statistics of transformed aig.
     - `runall_abc.sh`: Type `runall_abc.sh` to runall the scripts under the folder `abc_script`. The terminal standard output is redirected to benchmark`.v.log` under the folder `abc_script`.
     - `README.md`: The same `README.md` under the folder `r12943102_r12943103`.
-- `report.pdf`
-- `Final_Presentation.pdf`
+- `Reference_Paper`:
+    - `Security_analysis_of_logic_obfuscation.pdf`: J. Rajendran, Y. Pino, O. Sinanoglu and R. Karri, "Security analysis of logic obfuscation," DAC Design Automation Conference 2012, San Francisco, CA, USA, 2012, pp. 83-89 [1]
+    - `Secuirty_Analysis_of_IC_Camouflaging.pdf`: Jeyavijayan Rajendran, Michael Sam, Ozgur Sinanoglu, and Ramesh Karri. 2013. Security analysis of integrated circuit camouflaging. In Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security (CCS '13). Association for Computing Machinery, New York, NY, USA, 709–720. [2]
+    - `Ending_Piracy_of_ICs.pdf`: Jarrod A. Roy, Farinaz Koushanfar, and Igor L. Markov. 2008. EPIC: ending piracy of integrated circuits. In Proceedings of the conference on Design, automation and test in Europe (DATE '08). Association for Computing Machinery, New York, NY, USA, 1069–1074. [3]
+- `LSV_final_report.pdf`: Our final report in the pdf format.
+- `LSV_final_presentation.pdf`: Our final presentation slides.
+- `README.md`: Describe what are included in the zip file.
     
 ## Reference
 
