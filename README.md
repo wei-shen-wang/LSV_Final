@@ -2,8 +2,8 @@
 
 ## Files Structure
 
-    r12943102_r12943103.zip
-        r12943102_r12943103/
+    R12943102_R12943103.zip
+        R12943102_R12943103/
         |-- LSV_Final/
         |    |-- abc/
         |    |-- abc_script/
