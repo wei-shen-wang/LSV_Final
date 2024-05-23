@@ -1,3 +1,5 @@
+#ifndef CIRCUIT_H
+#define CIRCUIT_H
 #include <map>
 #include <set>
 #include <cassert>
@@ -62,3 +64,4 @@ public:
     std::set<std::string> inputNames_;
     std::set<std::string> outputNames_;
 };
+#endif

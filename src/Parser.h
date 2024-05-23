@@ -1,3 +1,5 @@
+#ifndef PARSER_H
+#define PARSER_H
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -31,3 +33,4 @@ public:
     std::string filename_;
     std::string outputFilenameAppend_;
 };
+#endif
